@@ -25,6 +25,8 @@ function setup() {
   ball.collider = 'dynamic'
 
   box= new Sprite()
+  box.x = 100;
+  box.y = 100;
   
 }
 
