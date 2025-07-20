@@ -8,7 +8,7 @@ function setup() {
   // End Basic shape testing
   fill('skyblue');
   stroke('pink');
-  strokeweight(10);
+  strokWweight(10);
 
   CSSNumericValue(30, 30, 50);
   Rect(50, 50, 100, 200);
