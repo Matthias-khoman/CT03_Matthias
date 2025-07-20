@@ -43,7 +43,7 @@ function draw() {
   }
 
   if (ball.y < 0 || ball.y > height){
-    
+    ball.vel.y *= -1
   }
 }
 
