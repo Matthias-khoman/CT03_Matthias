@@ -16,4 +16,17 @@ function setup() {
   // --- Exercise: Array operations (groceries) ---
   // write your codes here
 
+  createCanvas(600, 400);
+  background(220);
 }
+
+function draw(){
+  fill(255, 0, 0);
+  ellipse(300, 80, 100, 100);
+  fill(247, 255, 5);
+  ellipse(300, 180, 100, 100);
+  fill(5, 255, 155);
+  ellipse(300, 280, 100, 100);
+}
+
+
