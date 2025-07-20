@@ -28,8 +28,8 @@ function draw(){
   // fill(5, 255, 155);
   // ellipse(300, 280, 100, 100);
 
-  ellipse(100, 100, 80, 50)
-  ellipse(200, 100, 80, 50)
+  ellipse(100, 150, 80, 50)
+  ellipse(200, 150, 80, 50)
 }
 
 
