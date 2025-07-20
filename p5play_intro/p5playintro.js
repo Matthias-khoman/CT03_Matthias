@@ -52,6 +52,8 @@ function draw() {
     ball.vel.y *= -1;
   }
 
+  if (bo)
+
    box.x = mouseX;
    box.y = mouseY;
 }
