@@ -53,7 +53,7 @@ function draw() {
   }
 
   if (box.y == ball.y){
-    
+    ball.vel.y *= -1
   }
 
    box.x = mouseX;
