@@ -38,7 +38,7 @@ function draw() {
   // write your codes here
   background(250)
 
-  if (ball.x + ball.diameter / 2 < 0 || ball.x > width){
+  if (ball.x + ball.diameter / 2 < 0 || ball.x + ball.diameter > width){
     ball.vel.x  *= -1;
   }
 
