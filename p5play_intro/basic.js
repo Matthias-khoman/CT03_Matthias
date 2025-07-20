@@ -29,7 +29,7 @@ function draw(){
   // ellipse(300, 280, 100, 100);
 
   ellipse(100, 100, 80, 50)
-  ellipse()
+  ellipse(200, 100, 80, 50)
 }
 
 
