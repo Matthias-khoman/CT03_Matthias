@@ -10,7 +10,8 @@ function setup() {
   stroke('pink');
   strokeweight(10);
 
-  CSSNumericValue(30)
+  CSSNumericValue(30, 30, 50);
+  rect
   // Create a bouncing ball sprite
   // write your codes here
   ball = new Sprite();
