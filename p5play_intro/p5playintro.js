@@ -39,7 +39,7 @@ function draw() {
   background(250)
 
   if (ball.x < 0 | ball.x > width){
-    ball.vel.x  *= -1
+    ball.vel.x  *= -1;
   }
 }
 
