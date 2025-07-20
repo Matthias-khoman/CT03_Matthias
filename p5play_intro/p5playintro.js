@@ -52,7 +52,9 @@ function draw() {
     ball.vel.y *= -1;
   }
 
-  if (box.y == box.)
+  if (box.y == ball.y){
+    
+  }
 
    box.x = mouseX;
    box.y = mouseY;
