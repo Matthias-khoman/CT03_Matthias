@@ -31,6 +31,7 @@ function setup() {
   box.w = 50;
   box.h = 50;
   box.color = "green";
+  box.collider = "static"
 
 }
 
