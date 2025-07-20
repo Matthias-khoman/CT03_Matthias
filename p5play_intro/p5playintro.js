@@ -24,13 +24,13 @@ function setup() {
   ball.bounciness = 1;
   ball.collider = 'dynamic'
 
-  box= new Sprite()
+  box= new Sprite();
   box.x = 100;
   box.y = 100;
   box.w = 50;
   box.h = 50;
-  box.color = "green"
-  box.shape = "triangle"
+  box.color = "green";
+  box.shape = "triangle";
 }
 
 function draw() {
