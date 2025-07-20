@@ -11,7 +11,7 @@ function setup() {
   strokeweight(10);
 
   CSSNumericValue(30, 30, 50);
-  rect
+  React(50, 50, )
   // Create a bouncing ball sprite
   // write your codes here
   ball = new Sprite();
