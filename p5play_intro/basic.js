@@ -31,7 +31,7 @@ function draw(){
   ellipse(100, 100, 80, 150)
   ellipse(200, 100, 80, 150)
 
-  circle()
+  circle(320, 120, 100)
 }
 
 
