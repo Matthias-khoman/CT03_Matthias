@@ -32,6 +32,7 @@ function draw(){
   ellipse(200, 100, 80, 150)
 
   circle(320, 120, 100)
+  rect(30)
 }
 
 
