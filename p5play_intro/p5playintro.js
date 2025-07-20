@@ -16,6 +16,7 @@ function setup() {
   ball.color = 'green';
   ball.vel.x = 3;
   ball.vel.y = 3;
+  ball.
 
 }
 
