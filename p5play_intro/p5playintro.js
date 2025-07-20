@@ -48,6 +48,6 @@ function draw() {
   }
 
    box.x = mouseX;
-   
+   box.y = mouseY;
 }
 
