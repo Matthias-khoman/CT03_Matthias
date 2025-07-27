@@ -20,7 +20,9 @@ function setup() {
   background(220);
   console.log("Hello");
   textSize(16);
-  fill(0)
+  fill(0);
+  
+  let
 }
 
 function draw(){
