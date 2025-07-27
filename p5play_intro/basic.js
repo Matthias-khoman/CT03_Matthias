@@ -39,8 +39,9 @@ function setup() {
     console.log(i);
   }
   for(let i = 20; i>9; i--){
-    
+    console.log(i)
   }
+  
 }
 
 function draw(){
