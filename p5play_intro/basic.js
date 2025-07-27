@@ -29,7 +29,7 @@ function setup() {
   let b = 10;
   base = 10;
   height = 5;
-  area
+  area = 0.5 * base * height
   
   let product = a * b;
   console.log("Sum of a and b: ", sum);
