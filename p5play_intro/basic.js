@@ -49,9 +49,9 @@ function draw(){
   circle(320, 120, 100)
   rect(30, 20, 55, 50,20,20,20,20)
 
-  triangle(30, 75, 58, 20, 86, 75)
-  fill()
-  text(area, 50, 50)
+  triangle(30, 75, 58, 20, 86, 75);
+  fill(255, 255, 0);
+  text(area, 50, 50);
 }
 
 
