@@ -62,7 +62,7 @@ function setup() {
   //   text("secondary school: " + age, 200, 200)
   // }
   let i = 19;
-  while(i<= 1){
+  while(i<= 1);{
     i--;
     console.log(i);
   }
