@@ -1,4 +1,5 @@
-let base
+let base = 10;
+let height = 
 function setup() {
   // write your codes here
 
