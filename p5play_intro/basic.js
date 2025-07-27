@@ -53,6 +53,7 @@ function setup() {
 }
 
 function draw(){
+  ellipse()
   // fill(255, 0, 0);
   // ellipse(300, 80, 100, 100);
   // fill(247, 255, 5);
