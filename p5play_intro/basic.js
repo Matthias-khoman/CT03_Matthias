@@ -61,7 +61,8 @@ function setup() {
   //   console.log("Secondary school " + age);
   //   text("secondary school: " + age, 200, 200)
   // }
-  let
+  let i = 19;
+  
 }
 
 function draw(){
