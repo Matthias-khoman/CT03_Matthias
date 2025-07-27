@@ -36,7 +36,7 @@ function setup() {
   console.log("Product of a and b: ", product);
   console.log(area);
   for(let i = 10; i<=21; i++){
-    console.log(i)
+    console.log(i);
   }
 }
 
