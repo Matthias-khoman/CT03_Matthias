@@ -19,7 +19,8 @@ function setup() {
   createCanvas(600, 400);
   background(220);
   console.log("Hello");
-  textSize(16)
+  textSize(16);
+  fill(0)
 }
 
 function draw(){
