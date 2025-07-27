@@ -22,7 +22,8 @@ function setup() {
   textSize(16);
   fill(0);
   
-  let a = 1
+  let a = 5;
+  let b = 10;
   
 }
 
