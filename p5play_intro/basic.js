@@ -50,7 +50,10 @@ function setup() {
   //   console.log(i);
   //   total += i;
   // }
-  let age = 12
+  let age = 12;
+  if(age <= 9){
+    
+  }
 }
 
 function draw(){
