@@ -22,7 +22,7 @@ function setup() {
 
   createCanvas(600, 400);
   background(220);
-  console.log("Hello");
+  // console.log("Hello");
   textSize(16);
   fill(0);
   
