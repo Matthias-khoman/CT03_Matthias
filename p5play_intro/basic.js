@@ -50,6 +50,7 @@ function setup() {
   //   console.log(i);
   //   total += i;
   // }
+  let 
 }
 
 function draw(){
