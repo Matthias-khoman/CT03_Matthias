@@ -1,6 +1,6 @@
 let base = 10;
 let height = 5;
-let area = 0.5 * base * height
+let area = 0.5 * base * height;
 function setup() {
   // write your codes here
 
@@ -29,8 +29,8 @@ function setup() {
   let b = 10;
   
   let product = a * b;
-  console.log("Sum of a and b: ", sum)
-  console.log("Product of a and b: ", product)
+  console.log("Sum of a and b: ", sum);
+  console.log("Product of a and b: ", product);
   console.log(area);
 }
 
