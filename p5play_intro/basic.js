@@ -1,6 +1,7 @@
 let base;
 let height;
 let area;
+let total;
 function setup() {
   // write your codes here
 
