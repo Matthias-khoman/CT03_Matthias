@@ -50,7 +50,7 @@ function setup() {
   //   console.log(i);
   //   total += i;
   // }
-  let age = 12;
+  let age = 15;
   if(age <= 9){
     console.log("Lower primary");
   }else if(age<=12){
