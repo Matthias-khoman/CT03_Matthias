@@ -1,5 +1,6 @@
 let base = 10;
-let height = 
+let height = 5;
+let area = 
 function setup() {
   // write your codes here
 
