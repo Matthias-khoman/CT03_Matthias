@@ -50,7 +50,7 @@ function setup() {
   //   console.log(i);
   //   total += i;
   // }
-  let age = 9;
+  let age = 13;
   if(age <= 9){
     console.log("Lower primary " + age);
     text(age, 100, 100)
@@ -59,7 +59,7 @@ function setup() {
     text(age, 150, 150)
   }else{
     console.log("Secondary school " + age);
-    text("secondary school: " age, 200, 200)
+    text("secondary school: " + age, 200, 200)
   }
 }
 
