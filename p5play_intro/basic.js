@@ -64,7 +64,7 @@ function setup() {
   let i = 19;
   while(i<= 1){
     i--;
-    console.log
+    console.log(i);
   }
 }
 
