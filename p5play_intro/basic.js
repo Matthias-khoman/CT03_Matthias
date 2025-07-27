@@ -42,7 +42,7 @@ function setup() {
     console.log(i);
   }
   for(let i = 3; i < 47; i*3){
-    
+    console.log(i)
   }
 }
 
