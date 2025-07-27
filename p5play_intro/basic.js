@@ -18,6 +18,7 @@ function setup() {
 
   createCanvas(600, 400);
   background(220);
+  console.log("Hello");
 }
 
 function draw(){
@@ -36,7 +37,7 @@ function draw(){
   rect(30, 20, 55, 50,20,20,20,20)
 
   triangle(30, 75, 58, 20, 86, 75)
-  console.log("Hello")
+  
 }
 
 
