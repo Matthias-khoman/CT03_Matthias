@@ -56,7 +56,7 @@ function setup() {
   }else if(age<=12){
     console.log("Upper primary")
   }else{
-    
+    console.log("Secondary school");
   }
 }
 
