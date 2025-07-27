@@ -22,7 +22,8 @@ function setup() {
   textSize(16);
   fill(0);
   
-  let
+  let a = 1
+  
 }
 
 function draw(){
