@@ -26,11 +26,11 @@ function setup() {
   textSize(16);
   fill(0);
   
-  let a = 5;
-  let b = 10;
-  base = 10;
-  height = 5;
-  area = 0.5 * base * height;
+  // let a = 5;
+  // let b = 10;
+  // base = 10;
+  // height = 5;
+  // area = 0.5 * base * height;
   
   let product = a * b;
   // console.log("Sum of a and b: ", sum);
