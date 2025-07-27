@@ -1,5 +1,5 @@
-let base
-let height
+let base;
+let height;
 let area = 0.5 * base * height;
 function setup() {
   // write your codes here
@@ -28,6 +28,8 @@ function setup() {
   let a = 5;
   let b = 10;
   base = 10;
+  height = 5;
+  area
   
   let product = a * b;
   console.log("Sum of a and b: ", sum);
