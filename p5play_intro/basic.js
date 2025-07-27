@@ -33,8 +33,8 @@ function setup() {
   
   let product = a * b;
   // console.log("Sum of a and b: ", sum);
-  console.log("Product of a and b: ", product);
-  console.log(area);
+  // console.log("Product of a and b: ", product);
+  // console.log(area);
   for(let i = 10; i<21; i++){
     console.log(i);
   }
