@@ -56,7 +56,7 @@ function setup() {
     text(age, 100, 100)
   }else if(age<=12){
     console.log("Upper primary " + age);
-    text(age, 150, 150)
+    text("Upper primary: " +age, 150, 150)
   }else{
     console.log("Secondary school " + age);
     text("secondary school: " + age, 200, 200)
