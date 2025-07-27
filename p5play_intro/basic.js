@@ -35,12 +35,13 @@ function setup() {
   // console.log("Sum of a and b: ", sum);
   console.log("Product of a and b: ", product);
   console.log(area);
-  for(let i = 10; i<=21; i++){
+  for(let i = 10; i<21; i++){
     console.log(i);
   }
-  for(let i = 20; i>9; i--){
+  for(let i = 20; i>0; i--){
     console.log(i);
   }
+  // for(let i = 3)
 }
 
 function draw(){
