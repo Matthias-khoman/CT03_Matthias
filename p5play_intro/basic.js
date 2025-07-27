@@ -46,7 +46,7 @@ function setup() {
   // //   console.log(i)
   // // }
   // total = 0
-  for(let i = 2; i <= 20; i + 2){
+  for(let i = 2; i <= 20; i += 2){
     console.log(i)
     total + i
   }
