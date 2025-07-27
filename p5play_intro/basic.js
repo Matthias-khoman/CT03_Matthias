@@ -62,7 +62,9 @@ function setup() {
   //   text("secondary school: " + age, 200, 200)
   // }
   let i = 19;
-  
+  while(i<= 1){
+    
+  }
 }
 
 function draw(){
