@@ -31,7 +31,7 @@ function draw(){
   ellipse(100, 100, 80, 150)
   noFill()
   ellipse(200, 100, 80, 150)
-
+  fill(0, 255, 21w)
   circle(320, 120, 100)
   rect(30, 20, 55, 50,20,20,20,20)
 
