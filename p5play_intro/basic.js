@@ -50,7 +50,7 @@ function setup() {
   //   console.log(i);
   //   total += i;
   // }
-  let 
+  let age
 }
 
 function draw(){
