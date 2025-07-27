@@ -1,6 +1,6 @@
 let base;
 let height;
-let area = 0.5 * base * height;
+let area;
 function setup() {
   // write your codes here
 
