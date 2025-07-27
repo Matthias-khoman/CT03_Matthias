@@ -31,7 +31,7 @@ function setup() {
   let product = a * b;
   console.log("Sum of a and b: ", sum)
   console.log("Product of a and b: ", product)
-  console.log(area)
+  console.log(area);
 }
 
 function draw(){
@@ -41,15 +41,15 @@ function draw(){
   // ellipse(300, 180, 100, 100);
   // fill(5, 255, 155);
   // ellipse(300, 280, 100, 100);
-  fill(255, 0 , 0)
-  ellipse(100, 100, 80, 150)
-  noFill()
-  ellipse(200, 100, 80, 150)
-  fill(0, 255, 220)
-  circle(320, 120, 100)
-  rect(30, 20, 55, 50,20,20,20,20)
+  // fill(255, 0 , 0)
+  // ellipse(100, 100, 80, 150)
+  // noFill()
+  // ellipse(200, 100, 80, 150)
+  // fill(0, 255, 220)
+  // circle(320, 120, 100)
+  // rect(30, 20, 55, 50,20,20,20,20)
 
-  triangle(30, 75, 58, 20, 86, 75);
+  // triangle(30, 75, 58, 20, 86, 75);
   fill(255, 255, 0);
   text(area, 50, 50);
 }
