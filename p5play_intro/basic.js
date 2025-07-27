@@ -27,6 +27,7 @@ function setup() {
   
   let a = 5;
   let b = 10;
+  let base = 10;
   
   let product = a * b;
   console.log("Sum of a and b: ", sum);
