@@ -27,7 +27,7 @@ function setup() {
   let sum = a + b;
   let product = a * b;
   console.log("Sum of a and b: ", sum)
-  console
+  console.log("Pro")
 }
 
 function draw(){
