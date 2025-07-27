@@ -59,7 +59,7 @@ function setup() {
     text(age, 150, 150)
   }else{
     console.log("Secondary school " + age);
-    text(age, 200, 200)
+    text("secondary school: " age, 200, 200)
   }
 }
 
