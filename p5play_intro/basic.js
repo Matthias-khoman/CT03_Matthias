@@ -32,7 +32,7 @@ function setup() {
   area = 0.5 * base * height;
   
   let product = a * b;
-  console.log("Sum of a and b: ", sum);
+  // console.log("Sum of a and b: ", sum);
   console.log("Product of a and b: ", product);
   console.log(area);
 }
