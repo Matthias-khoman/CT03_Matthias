@@ -71,7 +71,7 @@ function draw(){
   // fill(0, 0, 0);
   // text(area, 50, 50);
   fill(0, 0, 0)
-  text
+  text(total, 50, 50)
 }
 
 
