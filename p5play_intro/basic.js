@@ -68,9 +68,10 @@ function draw(){
   // rect(30, 20, 55, 50,20,20,20,20)
 
   // triangle(30, 75, 58, 20, 86, 75);
-  fill(0, 0, 0);
-  text(area, 50, 50);
+  // fill(0, 0, 0);
+  // text(area, 50, 50);
   fill(0, 0, 0)
+  text
 }
 
 
