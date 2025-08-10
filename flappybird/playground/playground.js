@@ -49,7 +49,7 @@
         bird.img = flapDownImg;
     }
     else{
-        
+        bird.img = flap
     }
 
     // if(mouse.presses()){
