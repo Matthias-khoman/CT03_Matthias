@@ -44,6 +44,7 @@
     }
 
     FileList("blue");
-    tex
+    textSize(14);
+    text
 
   }
