@@ -5,7 +5,7 @@
     flapMidImg = loadImage('assets/yellowbird-midflap.png')
     bg = loadImage('assets/background-day.png')
     base = loadImage('assets/base.png')
-    flapUp
+    flapUpImg = loadImage()
   }
 
   function setup(){
