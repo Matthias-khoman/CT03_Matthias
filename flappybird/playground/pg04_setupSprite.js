@@ -45,6 +45,6 @@
 
     FileList("blue");
     textSize(14);
-    text("vel.y")
+    text("vel.y:" + birdd)
 
   }
