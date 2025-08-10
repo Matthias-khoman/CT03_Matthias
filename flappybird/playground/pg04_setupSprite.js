@@ -39,5 +39,7 @@
       bird.sleeping = false;
     }
 
-    if(mouse.press())
+    if(mouse.press()){
+      new
+    }
   }
