@@ -38,4 +38,6 @@
       bird.vel.y = -5;
       bird.sleeping = false;
     }
+
+    if(mouse.press())
   }
