@@ -1,1 +1,1 @@
-new Sprite(mouse.x, mouse.y, 30, 30, 'dynamic')
+flappybird/playground/pg04_setupSprite.js
