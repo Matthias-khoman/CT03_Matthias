@@ -45,11 +45,11 @@
         bird.img = flapUpImg;
 
     }
-    else if(bird.vel.y < 0){
+    else if(bird.vel.y > 0){
         bird.img = flapDownImg;
     }
     else{
-        bird.img = flap
+        bird.img = flapMidImg;
     }
 
     // if(mouse.presses()){
