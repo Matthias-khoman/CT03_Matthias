@@ -6,7 +6,7 @@
     bg = loadImage('assets/background-day.png')
     base = loadImage('assets/base.png')
     flapUpImg = loadImage('assets/yellowbird-upflap.png')
-    flap
+    flapDownImg = loadImage
   }
 
   function setup(){
