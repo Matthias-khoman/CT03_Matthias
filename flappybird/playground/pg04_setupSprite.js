@@ -39,6 +39,7 @@
       bird.sleeping = false;
     }
 
+    new Sprite(mouse.x, mouse.y, 30, 30, 'dynamic')
     if(mouse.presses()){
       new Sprite(mouse.x, mouse.y, 30, 30, 'dynamic')
     }
