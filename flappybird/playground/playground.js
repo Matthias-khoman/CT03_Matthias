@@ -42,7 +42,8 @@
     }
 
     if(bird.vel.y < -1){
-        bird.img = 
+        bird.img = flapUpImg
+        
     }
 
     // if(mouse.presses()){
