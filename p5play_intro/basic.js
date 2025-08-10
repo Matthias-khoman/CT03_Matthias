@@ -61,10 +61,28 @@ function setup() {
   //   console.log("Secondary school " + age);
   //   text("secondary school: " + age, 200, 200)
   // }
-  let i = 19;
-  while(i>= 1){
-    console.log(i);
-    i-= 2;
+  // let i = 19;
+  // while(i>= 1){
+  //   console.log(i);
+  //   i-= 2;
+  // }
+  let groceries = ["apple", "bread", "milk"];
+  groceries.push("orange");
+  groceries.push("butter");
+  for(let item of groceries){
+    console.log(item)
+  }
+  groceries.shift();
+    for(let item of groceries){
+    console.log(item)
+  }
+  groceries.splice(2, 0, "Kaya")
+      for(let item of groceries){
+    console.log(item) 
+  }
+  console.log(groceries[4])
+  for(let i=0; i<groceries.length;i++){
+    console.log(groceries[i]); 
   }
 }
 
