@@ -40,6 +40,6 @@
     }
 
     if(mouse.press()){
-      new
+      new Sprite(mouse.x)
     }
   }
