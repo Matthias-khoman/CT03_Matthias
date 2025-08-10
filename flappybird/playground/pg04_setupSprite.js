@@ -45,7 +45,7 @@
 
     FileList("blue");
     textSize(14);
-    text("vel.y:" + bird.vel.ytoFixed(2))
-    
+    text("vel.y:" + bird.vel.ytoFixed(2), 10, 20)
+    text
 
   }
