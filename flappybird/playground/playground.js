@@ -43,7 +43,7 @@
 
     if(bird.vel.y < -1){
         bird.img = flapUpImg;
-        bird.rotation = -30
+        bird.rotation = -30;
 
     }
     else if(bird.vel.y > 1){
@@ -52,7 +52,7 @@
     }
     else{
         bird.img = flapMidImg;
-        bird.rotation = 0
+        bird.rotation = 0;
     }
 
     // if(mouse.presses()){
