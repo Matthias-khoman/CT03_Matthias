@@ -44,7 +44,7 @@
     if(bird.vel.y < -1){
         bird.img = flapUpImg;
         for(let i = 0; i < 10; i ++){
-            bird.rotation += 5;
+            bird.rotation += 10;
         // bird.rotation = -30;
         }
 
