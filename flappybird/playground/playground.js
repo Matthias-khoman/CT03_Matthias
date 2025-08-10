@@ -42,7 +42,7 @@
     }
 
     if(bird.vel.y < -1){
-        
+        bird.img = 
     }
 
     // if(mouse.presses()){
