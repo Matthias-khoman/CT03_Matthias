@@ -41,9 +41,9 @@
       bird.sleeping = false;
     }
 
-    if(mouse.presses()){
-      new Sprite(mouse.x, 200, 30, 30, 'dynamic')
-    }
+    // if(mouse.presses()){
+    //   new Sprite(mouse.x, 200, 30, 30, 'dynamic')
+    // }
 
     fill("blue");
     textSize(14);
