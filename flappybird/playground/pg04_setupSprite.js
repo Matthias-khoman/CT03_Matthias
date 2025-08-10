@@ -47,6 +47,6 @@
     textSize(14);
     text("vel.y:" + bird.vel.ytoFixed(2), 10, 20)
     text("isMoving:" + bird.isMoving, 10, 40)
-    
+    text("sleeping:" + )
 
   }
