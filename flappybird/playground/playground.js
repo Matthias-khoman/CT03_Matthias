@@ -43,7 +43,7 @@
 
     if(bird.vel.y < -1){
         bird.img = flapUpImg;
-        bird.rotate = 360
+        bird.rotation = 360
 
     }
     else if(bird.vel.y > 1){
