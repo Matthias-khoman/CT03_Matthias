@@ -46,7 +46,7 @@
 
     }
     if(bird.vel.y = 0){
-        bird.img = flap
+        bird.img = flapDownImg;
     }
 
     // if(mouse.presses()){
