@@ -45,7 +45,9 @@
         bird.img = flapUpImg;
 
     }
-    if(bird.vel.y = 0)
+    if(bird.vel.y = 0){
+        b
+    }
 
     // if(mouse.presses()){
     //   new Sprite(mouse.x, 200, 30, 30, 'dynamic')
