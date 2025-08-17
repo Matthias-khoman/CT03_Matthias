@@ -86,5 +86,5 @@
     bottomPipe.img = pipeImg;
     
     pipeGroup.add(bottomPipe);
-    pip
+    pipeGroup.layer = 0;
   }
