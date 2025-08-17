@@ -1,12 +1,17 @@
   // write your codes here
-  let bird, floor
-  let flapMidImg, bg, base
+  let bird, floor;
+  let flapMidImg, bg, base;
+  let pipeImg;
+  let pipeGroup;
+  let bottomPipe, topPipe;
   function preload(){
-    flapMidImg = loadImage('assets/yellowbird-midflap.png')
-    bg = loadImage('assets/background-day.png')
-    base = loadImage('assets/base.png')
-    flapUpImg = loadImage('assets/yellowbird-upflap.png')
-    flapDownImg = loadImage('assets/yellowbird-downflap.png')
+    flapMidImg = loadImage('assets/yellowbird-midflap.png');
+    bg = loadImage('assets/background-day.png');
+    base = loadImage('assets/base.png');
+    flapUpImg = loadImage('assets/yellowbird-upflap.png');
+    flapDownImg = loadImage('assets/yellowbird-downflap.png');
+    pipeImg = loadImage('assets/pipe-green.png');
+
   }
 
   function setup(){
@@ -32,6 +37,8 @@
     floor.height = 125;
     floor.collider = 'static';
     floor.img = base
+
+    pipeGroup = new Group();
   }
   function draw(){
     image(bg, 0, 0, width, height);
@@ -58,6 +65,10 @@
         bird.rotation = 0;
     }
 
+    if (frameCount === 1){
+      spawnPipePair();
+    }
+
     // if(mouse.presses()){
     //   new Sprite(mouse.x, 200, 30, 30, 'dynamic')
     // }
@@ -68,4 +79,12 @@
     text("isMoving: " + bird.isMoving, 10, 40);
     text("sleeping: " + bird.sleeping, 10, 60);
 
+  }
+
+  function spawnPipePair() {
+    bottomPipe = new Sprite(100, height/2, 52, 320, 'static')
+    bottomPipe.img = pipeImg;
+    
+    pipeGroup.add(bottomPipe);
+    pipeGroup.layer = 0;
   }
