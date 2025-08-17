@@ -91,5 +91,6 @@
     pipeGroup.layer = 0;
 
     topPipe = new Sprite(100, midY - gap - 100, 52, 320, 'static');
-    topPipe.
+    topPipe.rotation = 180;
+    
   }
