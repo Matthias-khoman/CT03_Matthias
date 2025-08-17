@@ -41,7 +41,7 @@
     pipeGroup = new Group();
   }
 
-  
+
   function draw(){
     image(bg, 0, 0, width, height);
 
@@ -66,6 +66,8 @@
         bird.img = flapMidImg;
         bird.rotation = 0;
     }
+
+    //bird mo
 
     if (frameCount === 1){
       spawnPipePair();
