@@ -64,7 +64,9 @@
         bird.rotation = 0;
     }
 
-    if (frameCount === 1)
+    if (frameCount === 1){
+      
+    }
 
     // if(mouse.presses()){
     //   new Sprite(mouse.x, 200, 30, 30, 'dynamic')
