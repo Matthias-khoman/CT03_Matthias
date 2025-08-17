@@ -90,7 +90,7 @@
     pipeGroup.add(bottomPipe);
     pipeGroup.layer = 0;
 
-    topPipe = new Sprite(100, midY - gap - 100, 52, 320, 'static');
+    topPipe = new Sprite(100, midY - gap - 200, 52, 320, 'static');
     topPipe.rotation = 180;
     topPipe.img = pipeImg;
 
