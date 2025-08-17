@@ -90,5 +90,5 @@
     pipeGroup.add(bottomPipe);
     pipeGroup.layer = 0;
 
-    topPipe = new Sprite(100, )
+    topPipe = new Sprite(100, midY - gap - 100, )
   }
