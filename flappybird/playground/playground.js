@@ -68,7 +68,8 @@
     }
 
     //bird movement
-    bird.x = bird.x + 3
+    bird.x = bird.x + 3;
+    CanvasCaptureMediaStreamTrack.x
 
 
 
