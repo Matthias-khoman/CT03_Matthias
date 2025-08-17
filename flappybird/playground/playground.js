@@ -79,7 +79,7 @@
       spawnPipePair();
     }
     // every 2 minutes
-    else if (frameCount % 120 === 0) {
+    else if (frameCount % 120 == 0) {
       spawnPipePair();
     }
 
