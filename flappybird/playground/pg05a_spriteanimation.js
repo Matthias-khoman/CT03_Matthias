@@ -3,6 +3,7 @@
   let flapMidImg, bg, base;
   let pipeImg;
   let pipeGroup;
+  let botot
   function preload(){
     flapMidImg = loadImage('assets/yellowbird-midflap.png');
     bg = loadImage('assets/background-day.png');
