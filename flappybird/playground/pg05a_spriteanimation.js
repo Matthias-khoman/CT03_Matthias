@@ -10,7 +10,7 @@
     flapUpImg = loadImage('assets/yellowbird-upflap.png');
     flapDownImg = loadImage('assets/yellowbird-downflap.png');
     pipeImg = loadImage('assets/pipe-green.png');
-    
+
   }
 
   function setup(){
@@ -36,6 +36,8 @@
     floor.height = 125;
     floor.collider = 'static';
     floor.img = base
+
+    pipeGroup = new Gro
   }
   function draw(){
     image(bg, 0, 0, width, height);
