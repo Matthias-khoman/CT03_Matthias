@@ -67,7 +67,11 @@
         bird.rotation = 0;
     }
 
-    //bird mo
+    //bird movement
+
+
+
+    
 
     if (frameCount === 1){
       spawnPipePair();
