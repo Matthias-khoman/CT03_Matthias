@@ -65,7 +65,7 @@
     }
 
     if (frameCount === 1){
-      
+      spawn
     }
 
     // if(mouse.presses()){
