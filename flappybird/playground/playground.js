@@ -92,5 +92,7 @@
 
     topPipe = new Sprite(100, midY - gap - 100, 52, 320, 'static');
     topPipe.rotation = 180;
-    topPipe.img = pipeImg
+    topPipe.img = pipeImg;
+
+    pip
   }
