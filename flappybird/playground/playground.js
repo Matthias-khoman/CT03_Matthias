@@ -68,7 +68,7 @@
     }
 
     //bird movement
-    
+    bird.x
 
 
 
