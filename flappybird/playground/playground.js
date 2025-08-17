@@ -78,6 +78,7 @@
     if (frameCount === 1){
       spawnPipePair();
     }
+    else if ()
 
     // if(mouse.presses()){
     //   new Sprite(mouse.x, 200, 30, 30, 'dynamic')
