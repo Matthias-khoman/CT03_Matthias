@@ -68,10 +68,10 @@
     }
 
     //bird movement
-
-
-
     
+
+
+
 
     if (frameCount === 1){
       spawnPipePair();
