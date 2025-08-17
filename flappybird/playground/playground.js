@@ -83,7 +83,7 @@
       spawnPipePair();
     }
 
-    if (bird.collides(pipeGroup) || bird.coll)
+    if (bird.collides(pipeGroup) || bird.collides(floor))
 
     // if(mouse.presses()){
     //   new Sprite(mouse.x, 200, 30, 30, 'dynamic')
