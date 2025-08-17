@@ -84,7 +84,7 @@
     }
 
     if (bird.collides(pipeGroup) || bird.collides(floor)) {
-      noLoop
+      noLoop();
     }
 
     // if(mouse.presses()){
