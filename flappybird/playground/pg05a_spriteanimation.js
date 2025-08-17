@@ -1,14 +1,14 @@
   // write your codes here
   let bird, floor
   let flapMidImg, bg, base
-  let pipe 
+  let pipe
   function preload(){
     flapMidImg = loadImage('assets/yellowbird-midflap.png')
     bg = loadImage('assets/background-day.png')
     base = loadImage('assets/base.png')
     flapUpImg = loadImage('assets/yellowbird-upflap.png')
     flapDownImg = loadImage('assets/yellowbird-downflap.png')
-    
+
   }
 
   function setup(){
