@@ -82,5 +82,5 @@
   }
 
   function spawnPipePair() {
-    bottomPipe = new Sprite()
+    bottomPipe = new Sprite(100, height/2)
   }
