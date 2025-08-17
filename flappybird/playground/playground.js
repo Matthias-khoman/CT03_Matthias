@@ -94,5 +94,6 @@
     topPipe.rotation = 180;
     topPipe.img = pipeImg;
 
-    pipeGroup.add(topP)
+    pipeGroup.add(topPipe);
+    pipeGroup.layer = 0;
   }
