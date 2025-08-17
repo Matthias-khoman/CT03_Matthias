@@ -79,3 +79,7 @@
     text("sleeping: " + bird.sleeping, 10, 60);
 
   }
+
+  function spawnPipePair() {
+    
+  }
