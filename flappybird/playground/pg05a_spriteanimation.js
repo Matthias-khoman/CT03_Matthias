@@ -37,7 +37,7 @@
     floor.collider = 'static';
     floor.img = base
 
-    pipeGroup = new Gro
+    pipeGroup = new pipeGroup();
   }
   function draw(){
     image(bg, 0, 0, width, height);
