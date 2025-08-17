@@ -65,7 +65,7 @@
     }
 
     if (frameCount === 1){
-      spawn
+      spawnPipePair
     }
 
     // if(mouse.presses()){
