@@ -83,6 +83,8 @@
       spawnPipePair();
     }
 
+    if (bird)
+
     // if(mouse.presses()){
     //   new Sprite(mouse.x, 200, 30, 30, 'dynamic')
     // }
