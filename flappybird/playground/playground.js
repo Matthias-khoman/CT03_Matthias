@@ -78,7 +78,7 @@
     if (frameCount === 1){
       spawnPipePair();
     }
-    else if ()
+    else if (frameCount === 120)
 
     // if(mouse.presses()){
     //   new Sprite(mouse.x, 200, 30, 30, 'dynamic')
