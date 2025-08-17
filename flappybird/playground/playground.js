@@ -68,7 +68,7 @@
     }
 
     //bird movement
-    bird.x
+    bird.x = bird.x + 3
 
 
 
