@@ -12,7 +12,7 @@
     flapUpImg = loadImage('assets/yellowbird-upflap.png');
     flapDownImg = loadImage('assets/yellowbird-downflap.png');
     pipeImg = loadImage('assets/pipe-green.png');
-    gameover = loadImage
+    gameover = loadImage('ass')
 
   }
 
