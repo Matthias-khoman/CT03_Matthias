@@ -138,6 +138,7 @@ function draw() {
 
       noLoop(); 
     }
+    draw
 
     // Debug info (optional)
     fill("blue");
