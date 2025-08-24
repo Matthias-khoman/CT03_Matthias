@@ -87,7 +87,8 @@
 
     if (bird.collides(pipeGroup) || bird.collides(floor)) {
       gameover = new Sprite()
-      
+      gameover.x = 100
+      gameover.y = 
     }
 
     // if(mouse.presses()){
