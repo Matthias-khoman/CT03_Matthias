@@ -87,9 +87,9 @@
 
     if (bird.collides(pipeGroup) || bird.collides(floor)) {
       gameover = new Sprite()
-      gameover.x = 100
-      gameover.y = height / 2
-      gameover.width = 400
+      gameover.x = 100;
+      gameover.y = height / 2;
+      gameover.width = 400;
       gameover.height = 125;
     }
 
