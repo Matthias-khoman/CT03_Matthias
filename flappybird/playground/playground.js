@@ -4,6 +4,7 @@
   let pipeImg;
   let pipeGroup;
   let bottomPipe, topPipe;
+  let Ga
   function preload(){
     flapMidImg = loadImage('assets/yellowbird-midflap.png');
     bg = loadImage('assets/background-day.png');
