@@ -93,6 +93,7 @@
     }
 
     if (kb.presses('space') || mouse.presses()){
+      startgame = true;
       
     }
 
