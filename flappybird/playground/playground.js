@@ -86,7 +86,7 @@
     }
 
     if (bird.collides(pipeGroup) || bird.collides(floor)) {
-      noLoop();
+      gameover = new Sprite
     }
 
     // if(mouse.presses()){
