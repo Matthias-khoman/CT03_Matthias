@@ -86,7 +86,7 @@
     }
 
     if (bird.collides(pipeGroup) || bird.collides(floor)) {
-      gameoverlabel = new Sprite();
+      gameoverlabel = new Sprite(width / 2, height / 2, );
     }
 
     // if(mouse.presses()){
