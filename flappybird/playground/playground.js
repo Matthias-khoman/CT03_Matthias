@@ -8,7 +8,7 @@ let gameoverImg; // declare variable for image
 let gameoverLabel; // declare variable for game over sprite
 let startGame = false;
 let score = 0;
-
+let scorelist = [];
 
 let startScreenLabel; // declare variable for start screen
 let startScreenImg; // declare variable for image
