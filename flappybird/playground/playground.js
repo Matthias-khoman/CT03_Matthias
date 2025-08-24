@@ -94,7 +94,7 @@
 
     if (kb.presses('space') || mouse.presses()){
       startgame = true;
-      
+      startscreenlabel
     }
 
     if (bird.collides(pipeGroup) || bird.collides(floor)) {
