@@ -92,11 +92,7 @@
       spawnPipePair();
     }
 
-    if (kb.presses('space') || mouse.presses()){
-      startgame = true;
-      startscreenlabel.visible = false;
-      bird.visible = true;
-    }
+
 
     if (bird.collides(pipeGroup) || bird.collides(floor)) {
       gameoverlabel = new Sprite(width / 2, height / 2, 192, 42);
