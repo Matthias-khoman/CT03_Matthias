@@ -150,7 +150,7 @@ function draw() {
   }
   
 }
- 
+drawScore
 /* 
 Function to create a pair of pipes
 and add it to the group
