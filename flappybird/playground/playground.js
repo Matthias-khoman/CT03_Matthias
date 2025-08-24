@@ -6,6 +6,7 @@
   let bottomPipe, topPipe;
   let startscreenlabel;
   let startscreenImg;
+  let startgame = False
   let gameover;
   function preload(){
     flapMidImg = loadImage('assets/yellowbird-midflap.png');
