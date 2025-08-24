@@ -92,7 +92,9 @@
       spawnPipePair();
     }
 
-    if (kb.presses('space') || mouse.)
+    if (kb.presses('space') || mouse.presses()){
+      
+    }
 
     if (bird.collides(pipeGroup) || bird.collides(floor)) {
       gameoverlabel = new Sprite(width / 2, height / 2, 192, 42);
