@@ -89,7 +89,8 @@
       gameover = new Sprite()
       gameover.x = 100
       gameover.y = height / 2
-      game
+      gameover.width = 400
+      gameover.height = 125;
     }
 
     // if(mouse.presses()){
