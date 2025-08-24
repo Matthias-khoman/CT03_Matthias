@@ -89,7 +89,7 @@
       gameoverlabel = new Sprite(width / 2, height / 2, 192, 42);
       gameoverlabel.img = gameover;
       gameoverlabel.layer=100;
-      gameoverlabel
+      gameoverlabel.camer.x
     }
 
     // if(mouse.presses()){
