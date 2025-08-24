@@ -45,7 +45,7 @@
 
     pipeGroup = new Group();
 
-    s
+    startscreenlabel = new Sprite()
   }
 
 
