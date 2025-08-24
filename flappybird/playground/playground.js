@@ -179,7 +179,7 @@ function drawScore(x, y, score, digitWidth, digitHeight){
   scoreDigits.removeAll();
   let scoreStr = str(score)
   let totalWidth = scoreStr.length * digitWidth
-  let start
+  let startX = x -
 
 }
 
