@@ -54,7 +54,7 @@
   function draw(){
     image(bg, 0, 0, width, height);
 
-        if (kb.presses('space') || mouse.presses()){
+    if (kb.presses('space') || mouse.presses()){
       startgame = true;
       startscreenlabel.visible = false;
       bird.visible = true;
