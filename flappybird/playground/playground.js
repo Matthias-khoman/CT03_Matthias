@@ -7,6 +7,7 @@ let pipeGroup; // declare the group for pipe
 let gameoverImg; // declare variable for image
 let gameoverLabel; // declare variable for game over sprite
 let startGame = false;
+let score = 0;
 
 
 let startScreenLabel; // declare variable for start screen
