@@ -8,6 +8,7 @@
   let startscreenImg;
   let startgame = false
   let gameoverLabel = false;
+  let gameover;
   function preload(){
     flapMidImg = loadImage('assets/yellowbird-midflap.png');
     bg = loadImage('assets/background-day.png');
