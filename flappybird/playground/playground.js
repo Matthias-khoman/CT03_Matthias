@@ -97,7 +97,9 @@
     text("isMoving: " + bird.isMoving, 10, 40);
     text("sleeping: " + bird.sleeping, 10, 60);
 
-    if (bird.collides(pipeGroup) || bird.collides(floor))
+    if (bird.collides(pipeGroup) || bird.collides(floor)){
+      noloop();
+    }
 
   }
 
