@@ -90,7 +90,7 @@
       gameoverlabel.img = gameover;
       gameoverlabel.layer=100;
       gameoverlabel.camera.x;
-      noloop
+      noLoop();
     }
 
     // if(mouse.presses()){
