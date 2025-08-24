@@ -46,7 +46,7 @@
     pipeGroup = new Group();
 
     startscreenlabel = new Sprite(width / 2, height / 2, 50, 50, 'none');
-    startscreenlabel.img = startscreenImg 
+    startscreenlabel.img = startscreenImg; 
   }
 
 
