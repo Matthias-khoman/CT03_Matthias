@@ -87,7 +87,7 @@ function setup() {
 }
 
 function draw(){
-  circle(random())
+  circle(random(50, 60))
   // ellipse(50,50,50,50);
   // fill(255, 0, 0);
   // ellipse(300, 80, 100, 100);
