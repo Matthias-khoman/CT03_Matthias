@@ -87,7 +87,7 @@ function setup() {
 }
 
 function draw(){
-  React(width/1)
+  React(width/1-rec)
   // ellipse(50,50,50,50);
   // fill(255, 0, 0);
   // ellipse(300, 80, 100, 100);
