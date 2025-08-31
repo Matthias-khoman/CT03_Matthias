@@ -87,9 +87,7 @@ function setup() {
 }
 
 function draw(){
-  for(i = 0; i < random(5, 20); i ++){
-    
-  }
+  rect
   // ellipse(50,50,50,50);
   // fill(255, 0, 0);
   // ellipse(300, 80, 100, 100);
