@@ -8,7 +8,7 @@ function setup(){
     let abc = new Sprite();
     abc.diameter = 50;
     abc.y = 50;
-    AudioWorkletNode.gravity.y
+    world.gravity.y
 
 }
 
