@@ -15,7 +15,7 @@ function setup(){
 function draw(){
     background("blue");
 
-    if (MouseEvent.presses()){
+    if (mouse.presses()){
         new Sprite(mouseX, mouseY);
     }
     
