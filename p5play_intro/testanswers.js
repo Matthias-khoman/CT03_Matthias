@@ -10,7 +10,7 @@ function setup(){
     //abc.y = 50;
     world.gravity.y = 1;
     let floor = new Sprite();
-    floor.w = 10;
+    floor.w = 3000;
     floor.h = 35;
     floor.y = 350;
     floor.collider = 'static'
