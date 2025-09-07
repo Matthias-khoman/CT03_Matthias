@@ -16,7 +16,8 @@ function draw(){
     background("blue");
 
     if (mouse.presses()){
-        new Sprite(mouseX, mouseY);
+        b = new Sprite(mouseX, mouseY);
+        
     }
     
 }
