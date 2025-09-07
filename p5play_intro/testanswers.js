@@ -12,7 +12,7 @@ function setup(){
     let floor = new Sprite();
     floor.w = 10;
     floor.h = 35;
-    floor.y = 
+    floor.y = 350;
     floor.collider = 'static'
 }
 
