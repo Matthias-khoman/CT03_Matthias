@@ -31,7 +31,7 @@ function preload() {
     startScreenImg = loadImage('assets/message.png'); // preload the image
 
     for (let i = 0; i < 10; i++){
-      numberImages[i] = loadImage('assete/' + i + '.png')
+      numberImages[i] = loadImage('assets/' + i + '.png')
     }
 }
 
@@ -149,9 +149,12 @@ function draw() {
     text('sleeping: ' + bird.sleeping , 10, 60);
     text('bird.x: ' + bird.x.toFixed(2), 10, 80);
   }
-  
-}
-drawScore(width/2,20, score, 24, 36)
+
+  drawScore(width/2,20, score, 24, 36);
+
+
+} // draw()
+
 /* 
 Function to create a pair of pipes
 and add it to the group
