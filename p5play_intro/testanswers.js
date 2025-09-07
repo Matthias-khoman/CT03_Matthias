@@ -11,6 +11,7 @@ function setup(){
     world.gravity.y = 1;
     let floor = new Sprite();
     floor.w = 10;
+    floor.h = 
     floor.collider = 'static'
 }
 
