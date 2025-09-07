@@ -4,7 +4,7 @@ let ball;
 
 
 function setup(){
-    new Canvas
+    new Canvas()
 }
 
 //forever block
