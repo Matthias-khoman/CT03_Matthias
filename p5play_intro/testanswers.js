@@ -9,7 +9,7 @@ function setup(){
     //abc.diameter = 50;
     //abc.y = 50;
     world.gravity.y = 1;
-    let floor = new Sprite(400, 360, 300, 300, 'static');
+    let floor = new Sprite(400, 360, 400, 10, 'static');
 }
 
 //forever block
