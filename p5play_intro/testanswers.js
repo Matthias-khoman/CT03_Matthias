@@ -1,5 +1,7 @@
 //variable
-l
+let floor;
+let ball;
+
 
 function setup(){
 
