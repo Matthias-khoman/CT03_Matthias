@@ -17,7 +17,7 @@ function draw(){
 
     if (mouse.presses()){
         b = new Sprite(mouseX, mouseY);
-        b.diameter = 100;
+        b.diameter = 15;
     }
     
 }
