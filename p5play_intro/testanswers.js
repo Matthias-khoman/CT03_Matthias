@@ -5,7 +5,8 @@ let ball;
 
 function setup(){
     new Canvas(600, 400);
-    new Sprite()
+    new Sprite();
+    
 }
 
 //forever block
