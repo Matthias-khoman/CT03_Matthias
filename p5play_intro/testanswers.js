@@ -10,7 +10,8 @@ function setup(){
     //abc.y = 50;
     world.gravity.y = 1;
     let floor = new Sprite();
-    floor.w = 10
+    floor.w = 10;
+    
 }
 
 //forever block
