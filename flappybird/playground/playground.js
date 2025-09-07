@@ -31,7 +31,7 @@ function preload() {
     startScreenImg = loadImage('assets/message.png'); // preload the image
 
     for (let i = 0; i < 10; i++){
-      numberImages[i] = loadImage('assete/' + i + '.png')
+      numberImages[i] = loadImage('assets/' + i + '.png')
     }
 }
 
@@ -151,7 +151,7 @@ function draw() {
   }
 
   drawScore(width/2,20, score, 24, 36);
-  
+
 
 } // draw()
 
