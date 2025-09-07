@@ -149,9 +149,9 @@ function draw() {
     text('sleeping: ' + bird.sleeping , 10, 60);
     text('bird.x: ' + bird.x.toFixed(2), 10, 80);
   }
-  
+drawScore(width/2,20, score, 24, 36)  
 }
-drawScore(width/2,20, score, 24, 36)
+
 /* 
 Function to create a pair of pipes
 and add it to the group
