@@ -16,7 +16,7 @@ function draw(){
     background("blue");
 
     if (MouseEvent.presses()){
-        new SpeechRecognitionResult(mouseX, mouseY)
+        new SpeechRecognitionResult(mouseX, mouseY);
     }
     
 }
