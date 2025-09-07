@@ -150,7 +150,8 @@ function draw() {
     text('bird.x: ' + bird.x.toFixed(2), 10, 80);
   }
 
-  drawScore(width/2,20, score, 24, 36);4
+  drawScore(width/2,20, score, 24, 36);
+  
 
 } // draw()
 
