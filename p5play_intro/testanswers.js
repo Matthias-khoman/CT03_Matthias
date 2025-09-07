@@ -5,7 +5,8 @@ let ball;
 
 function setup(){
     new Canvas(600, 400);
-    abc = new Sprite();
+    let abc = new Sprite();
+    
 
 }
 
