@@ -184,7 +184,7 @@ function draw() {
         bird.collider = 'static';
         bird.y = 200;
 
-        
+        loop();
       },3000);
     }
     
