@@ -177,6 +177,7 @@ function draw() {
         score = 0;
         startGame = false;
         
+        pipe.remo
       },3000);
     }
     
