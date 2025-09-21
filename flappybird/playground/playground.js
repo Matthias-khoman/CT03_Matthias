@@ -170,7 +170,7 @@ function draw() {
       gameoverLabel.img = gameoverImg;
       gameoverLabel.layer = 100; // make the game over text come to front
       gameoverLabel.x = camera.x;
-      bgS
+      bgSound.stop();
       noLoop(); 
     }
     
