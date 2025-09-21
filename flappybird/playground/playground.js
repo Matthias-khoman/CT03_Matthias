@@ -184,6 +184,7 @@ function draw() {
         bird.collider = 'static';
         bird.y = 200;
         gameoverLabel.remove();
+        
         startScreenLabel.visible = true
 
         loop();
