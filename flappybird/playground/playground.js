@@ -143,7 +143,8 @@ function draw() {
       let birdLeftEdge = bird.x - bird.w/2;
 
       if(pipe.passed == False && pipeRightEdge < birdLeftEdge){
-        pipe.passed = 
+        pipe.passed = true
+        score
       }
     }
 
