@@ -180,7 +180,7 @@ function draw() {
         pipe.removeAll();
         bird.vel.x = 0;
         bird.vel.y = 0;
-        bitd.
+        bird.rotat
       },3000);
     }
     
