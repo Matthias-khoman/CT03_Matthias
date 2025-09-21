@@ -104,7 +104,7 @@ function draw() {
 
   // if startGame flag is true, then run all the other code
   if (startGame){
-    bgSouns
+    bgSound.play()
     // new code to make bird dynamic only when game start
     bird.collider = "dynamic"; 
   // make the bird move "forward"
