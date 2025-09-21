@@ -151,9 +151,10 @@ function draw() {
       let birdLeftEdge = bird.x - bird.w/2;
 
       if(pipe.passed == false && pipeRightEdge < birdLeftEdge){
-        pipe.passed = true
-        score++;
+        pipe.passed = true;
         pointSound.play();
+        score++;
+        
       }
       
     }
