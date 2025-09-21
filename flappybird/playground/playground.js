@@ -42,7 +42,7 @@ function preload() {
     flapSound = createAudio('assets/sfx_wing.mp3');
     pointSound = createAudio('assets/sfx_point.mp3');
     failSound = createAudio('assets/sfx_die.mp3');
-    bgSound = createAudio('assets/HEROICCC(chosic).mp3')
+    bgSound = createAudio('assets/HEROICCC(chosic.com).mp3')
 }
 
 function setup() {
