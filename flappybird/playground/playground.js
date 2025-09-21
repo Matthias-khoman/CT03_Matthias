@@ -14,6 +14,7 @@ let scoreDigits;
 let startScreenLabel; // declare variable for start screen
 let startScreenImg; // declare variable for image
 
+
 function preload() {
     // bird image, background and the floor
     flapMidImg = loadImage('assets/yellowbird-midflap.png'); 
@@ -63,6 +64,14 @@ function setup() {
   floor.collider = "static"; 
   floor.img = base;
 
+  sky = new Sprite();
+  sky.x = 0;
+  sky.y = -10;
+  sky.width = width * 2;
+  sky.collider = 'static';
+  sky.visible = false
+
+
   pipeGroup = new Group();
 
   // setup the start message and display
@@ -92,6 +101,7 @@ function draw() {
     bird.x += 2; // make the bird move forward
     camera.x = bird.x; // "lock" the camera pos to the bird.x pos
     floor.x = camera.x;// "lock" the floor pos to the bird.x pos
+    sky.x = camera.x
 
       // Apply upward push when space is pressed
     if (kb.presses('space') || mouse.presses()) {
@@ -130,7 +140,7 @@ function draw() {
 
     // End Game on Collision
     // note that this is checking collision against the group
-    if (bird.collides(pipeGroup) || bird.collides(floor)){
+    if (bird.collides(pipeGroup) || bird.collides(floor)|| bird.collides(sky)){
       gameoverLabel = new Sprite(width/2, height/2, 192, 42);
       gameoverLabel.collider = 'none;'
       gameoverLabel.img = gameoverImg;
@@ -185,7 +195,25 @@ function drawScore(x, y, score, digitWidth, digitHeight){
   let totalWidth = scoreStr.length * digitWidth
   let startX =  x - totalWidth / 2;
 
+  for (let i = 0; i < scoreStr.length; i++){
+    let digit = int(scoreStr[i]); // gets the first digut of the score
+    let xPos = startX + i * digitWidth;
+    let digitSprite = new scoreDigits.Sprite(xPos, y, digitWidth, digitHeight);
+
+  digitSprite.img = numberImages[digit];
+  moveGroup(scoreDigits, camera.x, 24);
+  }
+
 }
 
-// < . . . previous code . . . >
+function moveGroup(group, targetX, spacing){
+  let totalWidth = (group.length - 1) * spacing;
+  let startX = targetX - totalWidth/20;
+  for(let i = 0; i < group.length; i++){
+    group[i].x = startX + i * spacing;  
+  }
+
+}
+
+
 
