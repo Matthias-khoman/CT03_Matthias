@@ -16,7 +16,7 @@ let startScreenImg; // declare variable for image
 
 // sound variable
 let flapSound, pointSound, failSound;
-let bgSound
+let bgSound;
 
 
 function preload() {
@@ -42,6 +42,7 @@ function preload() {
     flapSound = createAudio('assets/sfx_wing.mp3');
     pointSound = createAudio('assets/sfx_point.mp3');
     failSound = createAudio('assets/sfx_die.mp3');
+    
 }
 
 function setup() {
