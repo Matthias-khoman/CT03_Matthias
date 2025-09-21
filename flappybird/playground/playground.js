@@ -181,7 +181,8 @@ function draw() {
         bird.vel.x = 0;
         bird.vel.y = 0;
         bird.rotation = 0;
-        bird.
+        bird.collider = 'static';
+        
       },3000);
     }
     
