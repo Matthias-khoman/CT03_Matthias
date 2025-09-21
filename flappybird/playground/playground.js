@@ -118,6 +118,7 @@ function draw() {
     
     // Activity: Change image according to flying action/ falling
     if (bird.vel.y < -1) {
+      flapSound.play();
       bird.img = flapUpImg; // flying upward
       bird.rotation = -30; // rotate up
     } 
