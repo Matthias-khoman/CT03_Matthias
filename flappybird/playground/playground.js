@@ -138,7 +138,9 @@ function draw() {
       }
     }
 
-    for(let pipe of pip)
+    for(let pipe of pipeGroup){
+      
+    }
 
     // End Game on Collision
     // note that this is checking collision against the group
