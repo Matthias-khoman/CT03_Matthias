@@ -154,7 +154,6 @@ function draw() {
         pipe.passed = true;
         pointSound.play();
         score++;
-        
       }
       
     }
