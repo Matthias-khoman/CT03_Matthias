@@ -173,7 +173,9 @@ function draw() {
       bgSound.stop();
       noLoop(); 
 
-      set t
+      setTimeout(() =>{
+        
+      },3000);
     }
     
 
