@@ -177,7 +177,8 @@ function draw() {
         score = 0;
         startGame = false;
         
-        pipe.remo
+        pipe.removeAll();
+        bird
       },3000);
     }
     
