@@ -14,7 +14,7 @@ let scoreDigits;
 let startScreenLabel; // declare variable for start screen
 let startScreenImg; // declare variable for image
 
-
+// sound variable
 let flapSound, pointSound, failSound;
 
 
