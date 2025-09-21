@@ -174,6 +174,7 @@ function draw() {
       noLoop(); 
 
       setTimeout(() =>{
+        score = 0;
         
       },3000);
     }
