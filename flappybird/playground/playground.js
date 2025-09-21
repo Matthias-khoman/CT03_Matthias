@@ -139,7 +139,7 @@ function draw() {
     }
 
     for(let pipe of pipeGroup){
-      let pipeRightEdge = pipe.
+      let pipeRightEdge = pipe.x + pipe.w/2
     }
 
     // End Game on Collision
