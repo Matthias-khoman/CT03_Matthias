@@ -14,6 +14,8 @@ let scoreDigits;
 let startScreenLabel; // declare variable for start screen
 let startScreenImg; // declare variable for image
 
+let 
+
 
 function preload() {
     // bird image, background and the floor
