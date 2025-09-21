@@ -14,7 +14,8 @@ let scoreDigits;
 let startScreenLabel; // declare variable for start screen
 let startScreenImg; // declare variable for image
 
-let flapSound, pointSound, fail
+
+let flapSound, pointSound, failSound;
 
 
 function preload() {
