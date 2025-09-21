@@ -172,6 +172,8 @@ function draw() {
       gameoverLabel.x = camera.x;
       bgSound.stop();
       noLoop(); 
+
+      set t
     }
     
 
