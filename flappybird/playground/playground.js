@@ -16,6 +16,7 @@ let startScreenImg; // declare variable for image
 
 // sound variable
 let flapSound, pointSound, failSound;
+let bgSound
 
 
 function preload() {
