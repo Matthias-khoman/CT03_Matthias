@@ -138,6 +138,8 @@ function draw() {
       }
     }
 
+    for(let pipe of pip)
+
     // End Game on Collision
     // note that this is checking collision against the group
     if (bird.collides(pipeGroup) || bird.collides(floor)|| bird.collides(sky)){
