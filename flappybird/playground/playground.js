@@ -154,6 +154,7 @@ function draw() {
         pipe.passed = true
         score++;
       }
+      pointSound
     }
 
     // End Game on Collision
