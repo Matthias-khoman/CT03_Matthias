@@ -4,7 +4,7 @@ function preload(){
     //create options for model settings
     let options = {
         flipped: true,
-        runtime: 'tf.js',
+        runtime: 'tfjs',
         modelType: 'full',
         detectorModelUrl: undefined,
         landmarkModelUrl: undefined,
