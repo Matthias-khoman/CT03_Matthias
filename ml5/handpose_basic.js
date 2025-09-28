@@ -32,5 +32,6 @@ function setup(){
     };
 
     //create webcan
-    video = createCapture
+    video = createCapture(constraints);
+    
 }
