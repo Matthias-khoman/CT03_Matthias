@@ -1,4 +1,5 @@
 let handpose;
+let video
 
 function preload(){
     //create options for model settings
