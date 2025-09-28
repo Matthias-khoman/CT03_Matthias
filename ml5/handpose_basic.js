@@ -2,5 +2,8 @@ let handpose;
 
 function preload(){
     //create options for model settings
-    let options
+    let options = {
+        flipped: true,
+        runtime
+    }
 }
