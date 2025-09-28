@@ -10,5 +10,6 @@ function preload(){
         landmarkModelUrl: undefined,
     }
 
-    //loading the 
+    //loading the model
+    handpose = ml
 }
