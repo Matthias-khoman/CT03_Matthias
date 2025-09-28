@@ -1,5 +1,6 @@
 let handpose;
 
 function preload(){
-    
+    //create options for model settings
+    let options
 }
