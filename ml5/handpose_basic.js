@@ -7,6 +7,6 @@ function preload(){
         runtime: 'tf.js',
         modelType: 'full',
         detectorModelUrl: undefined,
-        lane
+        landmarkModelUrl:
     }
 }
