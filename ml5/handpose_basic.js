@@ -19,6 +19,8 @@ function setup(){
     createCanvas(videoW, videoH)
 
     let constraints = {
-        video
+        video:{
+            manda
+        }
     }
 }
