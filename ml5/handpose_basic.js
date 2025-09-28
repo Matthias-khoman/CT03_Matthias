@@ -20,7 +20,9 @@ function setup(){
 
     let constraints = {
         video:{
-            manda
+            mandatory: {
+                
+            }
         }
     }
 }
