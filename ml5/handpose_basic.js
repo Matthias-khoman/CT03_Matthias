@@ -4,6 +4,7 @@ function preload(){
     //create options for model settings
     let options = {
         flipped: true,
-        runtime
+        runtime: 'tf.js',
+        
     }
 }
