@@ -1,5 +1,6 @@
 let handpose;
-let videoW = 
+let videoW = 640;
+
 
 function preload(){
     //create options for model settings
