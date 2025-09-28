@@ -6,6 +6,7 @@ function preload(){
         flipped: true,
         runtime: 'tf.js',
         modelType: 'full',
-        detectorModelUrl: undefined
+        detectorModelUrl: undefined,
+        lane
     }
 }
