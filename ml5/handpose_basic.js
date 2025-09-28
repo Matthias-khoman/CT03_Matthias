@@ -6,6 +6,6 @@ function preload(){
         flipped: true,
         runtime: 'tf.js',
         modelType: 'full',
-        detector
+        detectorModelUrl: undefined
     }
 }
