@@ -34,5 +34,7 @@ function setup(){
     //create webcan
     video = createCapture(constraints);
     video.size(640, 480);
-    
+    video.hide;
+
+    handpose.detect
 }
