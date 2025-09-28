@@ -33,5 +33,6 @@ function setup(){
 
     //create webcan
     video = createCapture(constraints);
-    video.size(640, )
+    video.size(640, 480);
+    
 }
