@@ -7,6 +7,7 @@ function preload(){
         runtime: 'tf.js',
         modelType: 'full',
         detectorModelUrl: undefined,
-        landmarkModelUrl:
+        landmarkModelUrl: undefined,
     }
+    
 }
