@@ -32,5 +32,5 @@ function setup(){
     };
 
     //create webcan
-    
+    video = createCapture
 }
