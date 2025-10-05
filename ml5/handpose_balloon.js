@@ -22,7 +22,7 @@ function setup(){
     createCanvas(videoW, videoH)
 
     fingerTip = new Sprite()
-    
+    fingerTip.diameter = 60
 
     let constraints = {
         video:{
