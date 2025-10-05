@@ -49,7 +49,7 @@ function draw(){
         for(let j = 0; j < hand.keypoints.length; i++){
             let keypoint = hand.keypoints[j]
 
-            CSSNumericValue(keypoint.x, keypoint.y, 10)
+            CSSNumericValue(keypoint.x, keypoint.y, 10);
         }
     }
 }
