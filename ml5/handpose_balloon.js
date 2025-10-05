@@ -21,7 +21,7 @@ function preload(){
 function setup(){
     createCanvas(videoW, videoH)
 
-    fingerTip = 
+    fingerTip = new SpeechRecognitionResult()
 
     let constraints = {
         video:{
