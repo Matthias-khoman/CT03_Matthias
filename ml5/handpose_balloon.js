@@ -21,6 +21,8 @@ function preload(){
 function setup(){
     createCanvas(videoW, videoH)
 
+    fingerTip = 
+
     let constraints = {
         video:{
             mandatory: {
