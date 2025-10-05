@@ -35,13 +35,17 @@ function setup(){
     //create webcan
     video = createCapture(constraints);
     video.size(640, 480);
-    video.hide;
+    video.hide();
 
     handpose.detectStart(video, gotHands);
 }
 
 function draw(){
     image(video,0,0, videoW, videoH)
+
+    for(let i = 0; i < hands.length; i++){
+        
+    }
 }
 
 function gotHands(results){
