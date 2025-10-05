@@ -66,7 +66,7 @@ function draw(){
         fingerTip.y = keypoint.y;
         fingerTip.visible = true;
     } else{
-        fingerTip
+        fingerTip.visible = false
     }
 }
 
