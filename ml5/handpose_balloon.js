@@ -53,7 +53,7 @@ function draw(){
     //     }
     // }
     if(hands.length > 0){
-        let
+        let hand = hands[0]
     }
 }
 
