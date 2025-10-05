@@ -52,7 +52,9 @@ function draw(){
     //         circle(keypoint.x, keypoint.y, 10);
     //     }
     // }
-    if(hands.length > 0)
+    if(hands.length > 0){
+        let
+    }
 }
 
 function gotHands(results){
