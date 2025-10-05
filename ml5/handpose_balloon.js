@@ -24,7 +24,7 @@ function setup(){
     fingerTip = new Sprite()
     fingerTip.diameter = 60;
     fingerTip.collider = 'kinematic'
-    fingerTip.color
+    fingerTip.color = 'rgba'
 
     let constraints = {
         video:{
