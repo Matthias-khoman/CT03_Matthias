@@ -3,6 +3,7 @@ let videoW = 640;
 let videoH = 480;
 let video;
 let hands = [];
+let fingertip
 
 function preload(){
     //create options for model settings
