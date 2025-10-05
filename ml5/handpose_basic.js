@@ -15,7 +15,7 @@ function preload(){
     }
 
     //loading the model
-    handpose = ml5.handPose(options);
+    handPose = ml5.handPose(options);
 }
 function setup(){
     createCanvas(videoW, videoH)
