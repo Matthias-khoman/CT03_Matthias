@@ -41,7 +41,7 @@ function setup(){
 }
 
 function draw(){
-    
+    Image()
 }
 
 function gotHands(results){
