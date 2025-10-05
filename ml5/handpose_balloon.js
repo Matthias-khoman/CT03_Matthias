@@ -22,7 +22,8 @@ function setup(){
     createCanvas(videoW, videoH)
 
     fingerTip = new Sprite()
-    fingerTip.diameter = 60
+    fingerTip.diameter = 60;
+    fingerTip.collider
 
     let constraints = {
         video:{
