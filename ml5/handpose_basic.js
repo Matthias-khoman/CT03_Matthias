@@ -41,5 +41,5 @@ function setup(){
 }
 
 function gotHands(){
-    hands = results
+    hands = results;
 }
