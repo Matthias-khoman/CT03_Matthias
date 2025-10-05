@@ -40,4 +40,4 @@ function setup(){
     handpose.detectStart(video, gotHands);
 }
 
-FUNCTION
+function gotHands
