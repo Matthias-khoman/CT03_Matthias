@@ -23,7 +23,7 @@ function setup(){
 
     fingerTip = new Sprite()
     fingerTip.diameter = 60;
-    fingerTip.collider = 'kinematic'
+    fingerTip.collider = 'dynamic'
     fingerTip.color = 'rgba(22, 238, 22, 0.75)'
 
     let constraints = {
@@ -63,7 +63,7 @@ function draw(){
         let keypoint = hand.keypoints[8]
         //circle(keypoint.x, keypoint.y, 30)
 
-        
+
         fingerTip.x = keypoint.x;
         fingerTip.y = keypoint.y;
         fingerTip.visible = true;
