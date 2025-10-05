@@ -41,7 +41,7 @@ function setup(){
 }
 
 function draw(){
-    Image(video,0,0, videoW, )
+    Image(video,0,0, videoW, videoH)
 }
 
 function gotHands(results){
