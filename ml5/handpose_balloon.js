@@ -50,7 +50,7 @@ function setup(){
     bottomWall = new Sprite(width/2, height, width, 10, 'static');
     leftWall = new Sprite(0, height/2, 10, height, 'static');
     rightWall = new Sprite(640, height/2, 10, height, 'static');
-    bounceSound = createAudio('assets/sfx_die.mp3');
+    bounceSound = createAudio('assets/sfx_wing.mp3');
 
     boundaryGroup = new Group;
     boundaryGroup.add(topWall);
