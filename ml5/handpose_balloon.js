@@ -4,6 +4,8 @@ let videoH = 480;
 let video;
 let hands = [];
 let fingerTip;
+let balloon;
+let bottomWall, topWall, rightWall, leftWall;
 
 function preload(){
     //create options for model settings
@@ -25,6 +27,30 @@ function setup(){
     fingerTip.diameter = 60;
     fingerTip.collider = 'kinematic'
     fingerTip.color = 'rgba(22, 238, 22, 0.75)'
+
+    world.gravity.y = 6; // gravity
+
+    balloon = new Sprite;
+    balloon.diameter = 60;
+    balloon.collider = 'diameter';
+    balloon.color = 'red';
+    balloon.x = width / 2;
+    balloon.y = 100;
+    balloon.bounciness = 1; // Full bounce on all sides
+    balloon.mass = 2; // How heavy the balloon is 
+    balloon.drag = 0.01; // air resistance
+
+    topWall = new Sprite(width/2, 0, width, 10, 'static');
+    bottomWall = new Sprite(width/2, height, width, 10, 'static');
+    leftWall = new Sprite(0, height/2, 10, height, 'static');
+    rightWall = new Sprite(640, height/2, 10, height, 'static');
+
+    boundaryGroup = new Group;
+    boundaryGroup.add(topWall);
+    boundaryGroup.add(bottomWall);
+    boundaryGroup.add(leftWall);
+    boundaryGroup.add(rightWall);
+
 
     let constraints = {
         video:{
