@@ -10,6 +10,7 @@ let bottomWall, topWall, rightWall, leftWall;
 //GameState Varisbles
 let gameStarted = false;
 let gameOver = false;
+
 let bounceSound;
 
 function preload(){
