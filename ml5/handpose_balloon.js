@@ -117,6 +117,7 @@ function draw(){
     }
 
     if(balloon.collides(fingerTip)){
+        score++;
         
     }
 
