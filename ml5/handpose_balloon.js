@@ -119,7 +119,8 @@ function draw(){
 
     fill(0)
     textSize(14)
-    textAlign('LEFT')
+    textAlign('LEFT', 'TOP')
+    text()
 
 
 
