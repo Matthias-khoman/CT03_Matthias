@@ -13,7 +13,7 @@ let gameOver = false;
 
 let bounceSound;
 
-let score;
+let score = 0;
 
 function preload(){
     //create options for model settings
@@ -116,7 +116,7 @@ function draw(){
         bounceSound.play()
     }
 
-    
+
 
 
 }
