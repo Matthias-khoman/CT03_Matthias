@@ -120,6 +120,8 @@ function keyPressed(){
         score = 0;
 
         // reset balloon state
+        balloon.x = width/2
+        balloon.y = 100;
         
     }
 }
