@@ -109,6 +109,9 @@ function draw(){
             fingerTip.visible = false
         }
     }
+        if(balloon.collides(fingerTip)){
+        playsound(bounceSound)
+    }
 
 
 }
