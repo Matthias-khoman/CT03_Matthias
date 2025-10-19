@@ -40,9 +40,9 @@ function setup(){
     balloon.color = 'red';
     balloon.x = width / 2;
     balloon.y = 100;
-    balloon.bounciness = 5; // Full bounce on all sides
-    balloon.mass = 2; // How heavy the balloon is 
-    balloon.drag = 0.01; // air resistance
+    // balloon.bounciness = 5; // Full bounce on all sides
+    // balloon.mass = 2; // How heavy the balloon is 
+    // balloon.drag = 0.01; // air resistance
 
     topWall = new Sprite(width/2, 0, width, 10, 'static');
     bottomWall = new Sprite(width/2, height, width, 10, 'static');
