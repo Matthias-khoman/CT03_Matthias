@@ -118,7 +118,8 @@ function draw(){
 
     if(balloon.collides(fingerTip)){
         score++ ;
-        fill(10)
+        fill(10);
+        
         text("SCORE" + score, 10, 10);
     }
 
