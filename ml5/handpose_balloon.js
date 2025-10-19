@@ -79,7 +79,7 @@ function setup(){
 function draw(){
     image(video,0,0, videoW, videoH)
 
-    IF 
+    IF(gameStarted == )
 
     if (gameOver===false){
         if(hands.length > 0){
