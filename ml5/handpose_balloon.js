@@ -114,8 +114,10 @@ function draw(){
     }
     if(balloon.collides(fingerTip)){
         bounceSound.play()
-        score
+        score++;
     }
+
+    
 
 
 
