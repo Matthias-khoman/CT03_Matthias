@@ -114,12 +114,7 @@ function draw(){
     }
     if(balloon.collides(fingerTip)){
         bounceSound.play()
-    }
-
-        fill(10);
-
-        text("SCORE" + score, 10, 10);
-    }
+    
 
 
 }
