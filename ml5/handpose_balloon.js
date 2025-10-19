@@ -82,7 +82,7 @@ function setup(){
 function draw(){
     image(video,0,0, videoW, videoH)
 
-    if(balloon.col)
+    if(balloon.colides(fingerTip)|| balloon)
 
     if(gameStarted === false){
         textSize(28);
