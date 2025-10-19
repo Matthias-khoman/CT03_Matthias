@@ -112,3 +112,4 @@ function draw(){
 function gotHands(results){
     hands = results;
 }
+
