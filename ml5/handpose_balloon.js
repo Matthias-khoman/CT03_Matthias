@@ -119,7 +119,7 @@ function draw(){
 
     fill(0)
     textSize(24)
-    textAlign(LEFT, TOP)
+    textAlign( LEFT, TOP)
     text("SCORE: " + score, 10, 10)
 
 
