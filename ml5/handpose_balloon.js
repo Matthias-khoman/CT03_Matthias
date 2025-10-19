@@ -82,6 +82,8 @@ function setup(){
 function draw(){
     image(video,0,0, videoW, videoH)
 
+    if(balloon.col)
+
     if(gameStarted === false){
         textSize(28);
         textAlign(CENTER, CENTER)
