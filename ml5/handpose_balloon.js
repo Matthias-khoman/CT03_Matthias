@@ -93,9 +93,9 @@ function draw(){
         else{
             fingerTip.visible = false
         }
-    }
+    }s
 
-    
+
 }
 
 function gotHands(results){

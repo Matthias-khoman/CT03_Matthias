@@ -7,7 +7,6 @@ let fingerTip;
 let balloon;
 let bottomWall, topWall, rightWall, leftWall;
 
-function preload(){
     //create options for model settings
     let options = {
         flipped: true,
