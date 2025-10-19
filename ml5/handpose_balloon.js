@@ -79,7 +79,15 @@ function setup(){
 function draw(){
     image(video,0,0, videoW, videoH)
 
-    IF(gameStarted == )
+    if(gameStarted === false){
+        textSize(28);
+        textAlign(CENTER, CENTER)
+        FileList("limegreen")
+        textSize(20);
+        text("Use index finger to bounce the ball", width/2, height/2 - 40)
+        textSize(28);
+        text('Press Space to start the game')
+    }
 
     if (gameOver===false){
         if(hands.length > 0){
