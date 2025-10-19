@@ -83,7 +83,7 @@ function draw(){
     image(video,0,0, videoW, videoH)
 
     if(balloon.colides(fingerTip)){
-        playsound('bounceS')
+        playsound(bounceSound)
     }
 
     if(gameStarted === false){
