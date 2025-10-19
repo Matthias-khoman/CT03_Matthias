@@ -40,6 +40,7 @@ function setup(){
     balloon.color = 'red';
     balloon.x = width / 2;
     balloon.y = 100;
+    balloon.visible = false;
     // balloon.bounciness = 5; // Full bounce on all sides
     // balloon.mass = 2; // How heavy the balloon is 
     // balloon.drag = 0.01; // air resistance
