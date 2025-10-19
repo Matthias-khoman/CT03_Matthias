@@ -6,7 +6,7 @@ let hands = [];
 let fingerTip;
 let balloon;
 let bottomWall, topWall, rightWall, leftWall;
-let 
+let gameStarted = false
 
 function preload(){
     //create options for model settings
