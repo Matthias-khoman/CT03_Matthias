@@ -137,6 +137,8 @@ function draw(){
         balloon.collider = 'none';
     }
 
+    if (gameOver = true)
+
     fill(0)
     textSize(24)
     textAlign(LEFT, TOP)
