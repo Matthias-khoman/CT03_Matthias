@@ -133,7 +133,8 @@ function draw(){
     if(balloon.collides(bottomWall)){
         gameOver = true;
         balloon.vel.y = 0;
-        balloon.vel
+        balloon.vel.x = 0;
+        balloon.collider
     }
 
     fill(0)
