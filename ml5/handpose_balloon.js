@@ -11,6 +11,7 @@ let bottomWall, topWall, rightWall, leftWall;
 let gameStarted = false;
 let gameOver = false;
 
+let bounceCooldown = 0;
 let bounce
 
 let bounceSound;
