@@ -12,7 +12,7 @@ let gameStarted = false;
 let gameOver = false;
 
 let bounceCooldown = 0;
-let bounceDelay = 2000;
+let bounceDelay = 1000;
 
 let bounceSound;
 
