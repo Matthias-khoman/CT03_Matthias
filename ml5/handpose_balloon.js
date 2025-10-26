@@ -123,7 +123,7 @@ function draw(){
     if (bounceCooldown > 0){
         bounceCooldown = bounceCooldown - deltaTime;
     }
-    if (bounceCooldown <= 0 ||)
+    if (bounceCooldown <= 0 && balloon.collider)
 
     fill(0)
     textSize(24)
