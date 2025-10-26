@@ -115,16 +115,17 @@ function draw(){
             fingerTip.visible = false
         }
     }
-    if(balloon.collides(fingerTip)){
-        bounceSound.play()
-        score++;
-    }
+    // if(balloon.collides(fingerTip)){
+    //     bounceSound.play()
+    //     score++;
+    // }
 
     if (bounceCooldown > 0){
         bounceCooldown = bounceCooldown - deltaTime;
     }
     if (bounceCooldown <= 0 && balloon.collides(fingerTip)){
-        
+        bounceSound.play()
+        score++;
     }
 
     fill(0)
