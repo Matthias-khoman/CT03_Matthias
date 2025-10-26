@@ -7,6 +7,7 @@ let fingerTip;
 let balloon;
 let bottomWall, topWall, rightWall, leftWall;
 
+
 //GameState Varisbles
 let gameStarted = false;
 let gameOver = false;
