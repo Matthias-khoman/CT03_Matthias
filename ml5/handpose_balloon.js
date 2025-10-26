@@ -132,7 +132,7 @@ function draw(){
 
     if(balloon.collides(bottomWall)){
         gameOver = true;
-        
+        balloon = 
     }
 
     fill(0)
