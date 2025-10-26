@@ -123,6 +123,7 @@ function draw(){
     if (bounceCooldown > 0){
         bounceCooldown = bounceCooldown - deltaTime;
     }
+    if
 
     fill(0)
     textSize(24)
