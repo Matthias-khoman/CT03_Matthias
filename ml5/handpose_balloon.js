@@ -138,6 +138,7 @@ function draw(){
     }
 
     if (gameOver === True){
+        textSize(36)
         
     }
 
