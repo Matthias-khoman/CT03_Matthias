@@ -130,6 +130,8 @@ function draw(){
         bounceCooldown = bounceDelay;
     }
 
+    if(balloon.collides(bo))
+
     fill(0)
     textSize(24)
     textAlign(LEFT, TOP)
