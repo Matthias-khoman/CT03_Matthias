@@ -126,6 +126,7 @@ function draw(){
     if (bounceCooldown <= 0 && balloon.collides(fingerTip)){
         bounceSound.play()
         score++;
+        bounceCooldown = bo
     }
 
     fill(0)
