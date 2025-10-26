@@ -120,7 +120,9 @@ function draw(){
         score++;
     }
 
-    if (bo)
+    if (bounceCooldown > 0){
+        
+    }
 
     fill(0)
     textSize(24)
