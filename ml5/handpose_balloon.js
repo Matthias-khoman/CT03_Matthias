@@ -137,7 +137,9 @@ function draw(){
         balloon.collider = 'none';
     }
 
-    if (gameOver = true)
+    if (gameOver === True){
+        
+    }
 
     fill(0)
     textSize(24)
