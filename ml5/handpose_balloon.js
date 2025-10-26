@@ -121,7 +121,7 @@ function draw(){
     }
 
     if (bounceCooldown > 0){
-        
+        bounceCooldown = bounceCooldown
     }
 
     fill(0)
