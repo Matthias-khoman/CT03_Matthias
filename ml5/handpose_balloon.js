@@ -142,6 +142,8 @@ function draw(){
         textAlign(CENTER, CENTER)
         fill('red')
         text('Game Over', width/2, height/2)
+        textSize(18)
+        text('')
     }
 
     fill(0)
