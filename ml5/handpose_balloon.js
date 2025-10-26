@@ -124,9 +124,9 @@ function draw(){
         bounceCooldown = bounceCooldown - deltaTime;
     }
     if (bounceCooldown <= 0 && balloon.collides(fingerTip)){
-        bounceSound.play()
+        bounceSound.play();
         score++;
-        bounceCooldown = bo
+        bounceCooldown = bounceDelay;
     }
 
     fill(0)
