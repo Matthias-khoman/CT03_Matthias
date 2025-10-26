@@ -123,7 +123,9 @@ function draw(){
     if (bounceCooldown > 0){
         bounceCooldown = bounceCooldown - deltaTime;
     }
-    if (bounceCooldown <= 0 && balloon.collider)
+    if (bounceCooldown <= 0 && balloon.collides(fingerTip)){
+        
+    }
 
     fill(0)
     textSize(24)
