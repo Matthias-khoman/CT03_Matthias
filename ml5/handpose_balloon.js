@@ -143,7 +143,7 @@ function draw(){
         fill('red')
         text('Game Over', width/2, height/2)
         textSize(18)
-        text('')
+        text('Press space ')
     }
 
     fill(0)
