@@ -130,7 +130,10 @@ function draw(){
         bounceCooldown = bounceDelay;
     }
 
-    if(balloon.collides(bo))
+    if(balloon.collides(bottomWall)){
+        gameOver = true;
+        
+    }
 
     fill(0)
     textSize(24)
