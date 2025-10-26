@@ -139,7 +139,7 @@ function draw(){
 
     if (gameOver === True){
         textSize(36)
-        textAlign
+        textAlign(CENTER, CENTER)
     }
 
     fill(0)
