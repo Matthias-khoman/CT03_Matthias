@@ -137,7 +137,7 @@ function draw(){
         balloon.collider = 'none';
     }
 
-    if(gameOver === True){
+    if(gameOver === true){
         textSize(36)
         textAlign(CENTER, CENTER)
         fill('red')
