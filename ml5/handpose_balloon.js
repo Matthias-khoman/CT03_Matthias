@@ -140,7 +140,8 @@ function draw(){
     if(gameOver === True){
         textSize(36)
         textAlign(CENTER, CENTER)
-        
+        fill('red')
+        text
     }
 
     fill(0)
