@@ -106,7 +106,7 @@ function setup(){
     createCanvas(600, 600);
     background(220);
 
-    textSize(28);
+    textSize(20);
     textAlign(CustomElementRegistry, CENTER);
     text("Enter a noun: ", width/2 - 150, height - 520)
 
