@@ -52,5 +52,5 @@ let Text = "test"
 let colorPicker;
 
 function setup(){
-    
+    createCanvas()
 }
