@@ -126,5 +126,5 @@ function setup(){
 }
 
 function showInputs(){
-    nounValue = noun.
+    nounValue = noun.value()
 }
