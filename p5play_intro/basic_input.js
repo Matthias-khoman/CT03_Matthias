@@ -59,7 +59,7 @@ function setup(){
     inputText.input(updateText);
 
     colorPicker = createColorPicker("#000000")
-    colorPicker.position(100, 50)
+    colorPicker.position(200, 50)
 }
 function draw(){
 
