@@ -55,7 +55,7 @@ function setup(){
     createCanvas(200, 200)
 
     inputText = createInput();
-    inputText.position(width / 2, 10);
+    inputText.position(width / 2 - 80,height - 10);
     inputText.input(updateText);
 
     colorPicker = createColorPicker("#000000")
