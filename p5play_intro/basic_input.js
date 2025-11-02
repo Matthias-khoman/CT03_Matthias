@@ -112,5 +112,5 @@ function setup(){
     verb = createInput("e.g jump");
     verb.position(55, 50);
 
-    adjective = crea
+    adjective = createInput("e.g ")
 }
