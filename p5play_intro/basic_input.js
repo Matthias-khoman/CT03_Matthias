@@ -106,11 +106,11 @@ function setup(){
     createCanvas(600, 600);
     background(220);
 
-    textSize(18);
+    textSize(16);
     textAlign(CENTER, CENTER);
-    text("Enter a noun: ", width/2 - 150, height - 570)
-    text("Enter a verb: ", width/2 - 150, height - 540)
-    text("Enter a adj: ", width/2 - 150, height - 510)
+    text("Enter a noun: ", width/2 - 100, height - 570)
+    text("Enter a verb: ", width/2 - 100, height - 540)
+    text("Enter a adj: ", width/2 - 100, height - 510)
 
     noun = createInput('e.g dog');
     noun.position(width/2, 20);
