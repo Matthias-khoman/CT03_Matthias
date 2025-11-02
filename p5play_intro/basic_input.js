@@ -122,4 +122,5 @@ function setup(){
     place.position(55, 140);
 
     button = createButton("generate story")
+    
 }
