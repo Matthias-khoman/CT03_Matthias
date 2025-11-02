@@ -87,4 +87,6 @@ function setup(){
     submitButton.mousepressed(displayInput);
     submitButton.position(inputField.x + inputField.width + 10, inputField.y)
 }
-funct
+function displayInput(){
+    
+}
