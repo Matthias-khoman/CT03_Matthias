@@ -90,5 +90,6 @@ function setup(){
 function displayInput(){
     background(220);
     const inputValue = inputField.value();
+    textSize(64);
     
 }
