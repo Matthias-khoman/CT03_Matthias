@@ -1,5 +1,7 @@
 let inputText;
 let userText = 'Your Text here';
+let inputAge;
+let ageText = 'Your age';
 let colorPicker;
 
 
@@ -10,8 +12,9 @@ function setup(){
     inputText1.position(width/2 - 80, height - 150);
     inputText1.input(updateText);
 
-    inputText2 = createInput();
-    inputText2.position(width/2 - 80, height - 175)
+    inputAge = createInput();
+    inputAge.position(width/2 - 80, height - 175);
+    inputAge.input(updateAge);
 
     colorPicker = createColorPicker("#459ca3ff");
     colorPicker.position(200, 32);
@@ -29,7 +32,7 @@ function draw(){
     textAlign(LEFT);
     fill(0);
     text("Pick a color", 20, 50)
-    text("Enter yiur name", width/2 - 150, height - 90 )
+    text("Enter yiur name", width/2 - 150, height - 11 )
 
     fill(0);
     textSize(28);
@@ -40,4 +43,7 @@ function draw(){
 
 function updateText(){
     userText = this.value();
+}
+function updateAge(){
+    ageText = this.value();
 }
