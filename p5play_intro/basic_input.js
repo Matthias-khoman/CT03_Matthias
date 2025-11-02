@@ -50,3 +50,7 @@
 let inputText;
 let Text = "test"
 let colorPicker;
+
+function setup(){
+    
+}
