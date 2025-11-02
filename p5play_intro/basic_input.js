@@ -47,28 +47,29 @@
 // function updateAge(){
 //     ageText = this.value();
 // }
-let inputText;
-let Text = "test"
-let colorPicker;
+// let inputText;
+// let Text = "test"
+// let colorPicker;
 
-function setup(){
-    createCanvas(200, 200)
+// function setup(){
+//     createCanvas(200, 200)
 
-    inputText = createInput();
-    inputText.position(width / 2 - 80,height - 180);
-    inputText.input(updateText);
+//     inputText = createInput();
+//     inputText.position(width / 2 - 80,height - 180);
+//     inputText.input(updateText);
 
-    colorPicker = createColorPicker("#000000")
-    colorPicker.position(width / 2 - 80, height - 150)
-}
-function draw(){
-    background(220);
+//     colorPicker = createColorPicker("#000000")
+//     colorPicker.position(width / 2 - 80, height - 150)
+// }
+// function draw(){
+//     background(220);
 
-    fill(colorPicker.value());
-    textSize(28);
-    textAlign(CENTER, CENTER);
-    text(Text, width / 2, height - 50);
-}
-function updateText(){
-    Text = this.value();
-}
+//     fill(colorPicker.value());
+//     textSize(28);
+//     textAlign(CENTER, CENTER);
+//     text(Text, width / 2, height - 50);
+// }
+// function updateText(){
+//     Text = this.value();
+// }
+let 
