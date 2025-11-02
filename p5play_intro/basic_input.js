@@ -135,5 +135,6 @@ function showInputs(){
     const adjValue = adjective.value();
     console.log(adjValue);
 
-    const advernValue = adverb.va
+    const advernValue = adverb.value();
+    console/log
 }
