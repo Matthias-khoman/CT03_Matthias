@@ -98,4 +98,5 @@
 let Noun;
 let Verb;
 let adjective;
-let 
+let Adverb;
+let place
