@@ -125,6 +125,9 @@ function setup(){
     button.mousePressed(showInputs)
     button.position(width/2, 170)
 }
+function draw(){
+    
+}
 
 function showInputs(){
     const nounValue = noun.value();
