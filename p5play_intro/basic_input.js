@@ -103,7 +103,7 @@ let place;
 let button;
 
 function setup(){
-    createCanvas(640, 400);
+    createCanvas(600, 600);
     background(220);
 
     noun = createInput('e.g dog');
