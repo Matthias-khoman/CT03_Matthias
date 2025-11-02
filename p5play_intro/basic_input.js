@@ -110,6 +110,7 @@ function setup(){
     textAlign(CENTER, CENTER);
     text("Enter a noun: ", width/2 - 150, height - 570)
     text("Enter a verb: ", width/2 - 150, height - 550)
+    text("Enter a noun: ", width/2 - 150, height - 50)
 
     noun = createInput('e.g dog');
     noun.position(width/2, 20);
