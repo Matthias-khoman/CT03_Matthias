@@ -88,5 +88,6 @@ function setup(){
     submitButton.position(inputField.x + inputField.width + 10, inputField.y)
 }
 function displayInput(){
-    
+    background(220);
+    const inputValue = input
 }
