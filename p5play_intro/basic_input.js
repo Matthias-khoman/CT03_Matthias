@@ -83,5 +83,5 @@ function setup(){
     inputField = createInput("Enter your text here");
     inputField.position(55, 20);
 
-    submitButton = createButton
+    submitButton = createButton("Show Input:=")
 }
