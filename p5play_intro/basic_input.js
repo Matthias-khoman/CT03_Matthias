@@ -116,8 +116,8 @@ function setup(){
     adjective.position(55, 80);
 
     adverb = createInput("e.g angsty");
-    adverb.position(55, 100);
+    adverb.position(55, 110);
 
     place = createInput("e.g AMK");
-    place.position(55, 120);
+    place.position(55, 150);
 }
