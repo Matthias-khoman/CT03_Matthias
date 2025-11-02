@@ -107,7 +107,7 @@ function setup(){
     background(220);
 
     noun = createInput('e.g dog');
-    noun.position(55, 20);
+    noun.position(width/2, 20);
 
     verb = createInput("e.g jump");
     verb.position(55, 50);
