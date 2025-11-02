@@ -126,8 +126,9 @@ function setup(){
 }
 
 function showInputs(){
-    const nounValue = noun.value()
+    const nounValue = noun.value();
     console.log(nounValue);
 
     const verbValue = verb.value();
+    console.log
 }
