@@ -165,7 +165,7 @@ function keyPressed(){
         gameStarted = true;
         gameOver = false;
         score = 0;
-
+        world.gravity.y = 6; // gravity
         // reset balloon state
         balloon.x = width/2
         balloon.y = 100;
