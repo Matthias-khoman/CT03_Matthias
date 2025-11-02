@@ -62,7 +62,8 @@ function setup(){
     colorPicker.position(200, 50)
 }
 function draw(){
-    FileList(colorPicker)
+    fill(colorPicker)
+    
 }
 function updateText(){
     Text = this.value();
