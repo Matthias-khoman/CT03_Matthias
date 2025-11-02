@@ -29,7 +29,7 @@ function draw(){
     textAlign(LEFT);
     fill(0);
     text("Pick a color", 20, 50)
-    text("Enter yiur name")
+    text("Enter yiur name", width/2, )
 
     fill(0);
     textSize(28);
