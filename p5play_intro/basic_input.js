@@ -126,7 +126,7 @@ function setup(){
     button.position(width/2, 170)
 }
 function draw(){
-    
+    back
 }
 
 function showInputs(){
