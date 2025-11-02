@@ -119,5 +119,5 @@ function setup(){
     adverb.position(55, 110);
 
     place = createInput("e.g AMK");
-    place.position(55, 150);
+    place.position(55, 140);
 }
