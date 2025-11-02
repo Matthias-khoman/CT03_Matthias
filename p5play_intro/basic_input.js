@@ -139,5 +139,5 @@ function showInputs(){
     console.log(advernValue);
 
     const placeValue = place.value();
-    console.log()
+    console.log(placeValue)
 }
