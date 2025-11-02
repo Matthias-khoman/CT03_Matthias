@@ -103,5 +103,5 @@ let place;
 let button;
 
 function setup(){
-    
+    createCanvas(640)
 }
