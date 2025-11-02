@@ -77,5 +77,6 @@ let submitButton;
 let outputArea;
 
 function setup(){
-    createCanvas()
+    createCanvas(400, 200);
+    backgroun
 }
