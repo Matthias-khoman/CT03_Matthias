@@ -106,6 +106,8 @@ function setup(){
     createCanvas(600, 600);
     background(220);
 
+    
+
     noun = createInput('e.g dog');
     noun.position(width/2, 20);
 
@@ -125,9 +127,7 @@ function setup(){
     button.mousePressed(showInputs)
     button.position(width/2, 170)
 }
-function draw(){
-    back
-}
+
 
 function showInputs(){
     const nounValue = noun.value();
