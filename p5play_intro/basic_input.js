@@ -138,5 +138,6 @@ function showInputs(){
     const advernValue = adverb.value();
     console.log(advernValue);
 
-    const placeValue = place.value()
+    const placeValue = place.value();
+    console.log()
 }
