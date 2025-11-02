@@ -49,4 +49,4 @@
 // }
 let inputText;
 let Text = "test"
-let col
+let colorPicker;
