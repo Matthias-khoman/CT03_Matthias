@@ -16,6 +16,7 @@ function setup(){
     colorPicker = createColorPicker("#459ca3ff");
     colorPicker.position(200, 32);
 
+
 }
 function draw(){
     background(colorPicker.value());
