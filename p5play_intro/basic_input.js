@@ -62,10 +62,10 @@ function setup(){
     colorPicker.position(200, 50)
 }
 function draw(){
-    fill(colorPicker)
+    fill(colorPicker);
     textSize(20);
     textAlign(LEFT, TOP);
-    text(Text, 200, 170)
+    text(Text, 200, 170);
 }
 function updateText(){
     Text = this.value();
