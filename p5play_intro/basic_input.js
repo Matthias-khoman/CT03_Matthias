@@ -47,4 +47,5 @@
 // function updateAge(){
 //     ageText = this.value();
 // }
-let 
+let inputText;
+let Text = "test"
