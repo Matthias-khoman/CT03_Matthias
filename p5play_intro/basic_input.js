@@ -62,7 +62,7 @@ function setup(){
     colorPicker.position(200, 50)
 }
 function draw(){
-    fill(colorPicker);
+    fill(colorPicker.value());
     textSize(20);
     textAlign(LEFT, TOP);
     text(Text, 200, 170);
