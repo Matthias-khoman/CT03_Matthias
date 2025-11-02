@@ -67,7 +67,7 @@ function draw(){
     fill(colorPicker.value());
     textSize(28);
     textAlign(CENTER, CENTER);
-    text(Text, 200, 170);
+    text(Text, width / 2, );
 }
 function updateText(){
     Text = this.value();
