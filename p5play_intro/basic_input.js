@@ -96,8 +96,8 @@
 // }
 
 let noun;
-let Verb;
+let verb;
 let adjective;
-let Adverb;
+let adverb;
 let place;
 let button
