@@ -108,4 +108,6 @@ function setup(){
 
     Noun = createInput('e.g dog');
     Noun.position(55, 20);
+
+    verb
 }
