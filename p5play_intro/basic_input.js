@@ -64,7 +64,7 @@ function setup(){
 function draw(){
     fill(colorPicker)
     textSize(20);
-    
+    textAlign()
 }
 function updateText(){
     Text = this.value();
