@@ -85,5 +85,5 @@ function setup(){
 
     submitButton = createButton("Show Input");
     submitButton.mousepressed(displayInput);
-    submitButton.position(inp)
+    submitButton.position(inputField.x + inputField.width + 10, inputField.y)
 }
