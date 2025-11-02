@@ -89,5 +89,6 @@ function setup(){
 }
 function displayInput(){
     background(220);
-    const inputValue = input
+    const inputValue = inputField.value();
+    
 }
