@@ -40,7 +40,7 @@ function setup(){
     fingerTip.collider = 'kinematic'
     fingerTip.color = 'rgba(22, 238, 22, 0.75)'
 
-    world.gravity.y = 6; // gravity
+    world.gravity.y = 0; // gravity
 
     balloon = new Sprite;
     balloon.diameter = 60;
