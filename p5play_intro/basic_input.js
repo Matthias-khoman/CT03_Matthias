@@ -123,6 +123,7 @@ function setup(){
 
     button = createButton("generate story")
     button.mousePressed(showInputs)
+    button.position(55, )
 }
 
 function showInputs(){
