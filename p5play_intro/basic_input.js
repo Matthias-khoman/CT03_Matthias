@@ -108,7 +108,7 @@ function setup(){
 
     textSize(20);
     textAlign(CustomElementRegistry, CENTER);
-    text("Enter a noun: ", width/2 - 150, height - 560)
+    text("Enter a noun: ", width/2 - 150, height - 570)
 
     noun = createInput('e.g dog');
     noun.position(width/2, 20);
