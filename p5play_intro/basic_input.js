@@ -113,5 +113,5 @@ function setup(){
     verb.position(55, 50);
 
     adjective = createInput("e.g happy");
-    adjective.position(55, 60);
+    adjective.position(55, 80);
 }
