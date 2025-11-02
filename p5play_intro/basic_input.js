@@ -58,3 +58,9 @@ function setup(){
     inputText.position(200, 10)
     inputText.input(updateText)
 }
+function draw(){
+
+}
+function updateText(){
+    
+}
