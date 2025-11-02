@@ -110,10 +110,10 @@ function setup(){
     noun.position(width/2, 20);
 
     verb = createInput("e.g jump");
-    verb.position(55, 50);
+    verb.position(width/2, 50);
 
     adjective = createInput("e.g happy");
-    adjective.position(55, 80);
+    adjective.position(width/2, 80);
 
     adverb = createInput("e.g angsty");
     adverb.position(55, 110);
