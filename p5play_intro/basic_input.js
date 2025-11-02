@@ -72,4 +72,5 @@
 // function updateText(){
 //     Text = this.value();
 // }
-let 
+let inputField;
+let submitButton;
