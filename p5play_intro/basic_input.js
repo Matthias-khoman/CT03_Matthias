@@ -57,6 +57,8 @@ function setup(){
     inputText = createInput();
     inputText.position(200, 10);
     inputText.input(updateText);
+
+    colorPicker = CreateCo
 }
 function draw(){
 
