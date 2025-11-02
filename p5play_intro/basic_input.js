@@ -116,14 +116,14 @@ function setup(){
     adjective.position(width/2, 80);
 
     adverb = createInput("e.g angsty");
-    adverb.position(55, 110);
+    adverb.position(width/2, 110);
 
     place = createInput("e.g AMK");
-    place.position(55, 140);
+    place.position(width/2, 140);
 
     button = createButton("generate story")
     button.mousePressed(showInputs)
-    button.position(55, 170)
+    button.position(width/2, 170)
 }
 
 function showInputs(){
