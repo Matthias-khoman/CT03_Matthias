@@ -107,7 +107,7 @@ function setup(){
     background(220);
 
     textSize(28);
-    textAi
+    textAlign(CustomElementRegistry, CENTER)
 
     noun = createInput('e.g dog');
     noun.position(width/2, 20);
