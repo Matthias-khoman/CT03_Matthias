@@ -112,7 +112,7 @@ function setup(){
     text("Enter a verb: ", width/2 - 100, height - 540)
     text("Enter a adj: ", width/2 - 100, height - 510)
     text("Enter a adverb: ", width/2 - 100, height - 480)
-    text("Enter a adj: ", width/2 - 100, height - 510)
+    text("Enter a place: ", width/2 - 100, height - 450)
 
     noun = createInput('e.g dog');
     noun.position(width/2, 20);
