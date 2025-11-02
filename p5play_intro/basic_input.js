@@ -126,5 +126,6 @@ function setup(){
 }
 
 function showInputs(){
-    nounValue = noun.value()
+    const nounValue = noun.value()
+    cons
 }
