@@ -103,5 +103,6 @@ let place;
 let button;
 
 function setup(){
-    createCanvas(640, 400)
+    createCanvas(640, 400);
+    background(220)
 }
