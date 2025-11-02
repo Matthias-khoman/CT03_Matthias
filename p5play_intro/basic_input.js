@@ -56,4 +56,5 @@ function setup(){
 
     inputText = createInput();
     inputText.position(200, 10)
+    
 }
