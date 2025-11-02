@@ -106,5 +106,6 @@ function setup(){
     createCanvas(640, 400);
     background(220);
 
-    Noun = createInput('e.g dog')
+    Noun = createInput('e.g dog');
+    
 }
