@@ -121,5 +121,5 @@ function setup(){
     place = createInput("e.g AMK");
     place.position(55, 140);
 
-    button = 
+    button = createButton("generate story")
 }
