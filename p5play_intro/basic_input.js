@@ -92,5 +92,5 @@ function displayInput(){
     const inputValue = inputField.value();
     textSize(64);
     textAlign(CENTER, CENTER);
-    text(inputValue, )
+    text(inputValue, 200, 100)
 }
