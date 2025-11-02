@@ -115,5 +115,6 @@ function setup(){
     adjective = createInput("e.g happy");
     adjective.position(55, 80);
 
-    adverb = createInput("e.g ")
+    adverb = createInput("e.g angsty");
+    
 }
