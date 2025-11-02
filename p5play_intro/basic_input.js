@@ -95,7 +95,7 @@
 //     text(inputValue, 200, 100)
 // }
 
-let Noun;
+let noun;
 let Verb;
 let adjective;
 let Adverb;
