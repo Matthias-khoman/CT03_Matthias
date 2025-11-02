@@ -130,5 +130,6 @@ function showInputs(){
     console.log(nounValue);
 
     const verbValue = verb.value();
-    console.log
+    console.log(verbValue)
+    
 }
