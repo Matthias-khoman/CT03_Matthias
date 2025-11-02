@@ -127,5 +127,6 @@ function setup(){
 
 function showInputs(){
     const nounValue = noun.value()
-    cons
+    console.log(nounValue)
+    
 }
