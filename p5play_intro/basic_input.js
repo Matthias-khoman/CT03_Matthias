@@ -132,4 +132,5 @@ function showInputs(){
     const verbValue = verb.value();
     console.log(verbValue)
     
+    const adjValue = 
 }
