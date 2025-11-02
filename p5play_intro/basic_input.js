@@ -99,4 +99,5 @@ let Noun;
 let Verb;
 let adjective;
 let Adverb;
-let place
+let place;
+let button
