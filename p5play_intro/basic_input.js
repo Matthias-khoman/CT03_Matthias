@@ -133,5 +133,5 @@ function showInputs(){
     console.log(verbValue)
     
     const adjValue = adjective.value();
-    
+    console.log()
 }
