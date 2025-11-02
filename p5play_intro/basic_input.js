@@ -106,7 +106,7 @@ function setup(){
     createCanvas(600, 600);
     background(220);
 
-    
+    textSize
 
     noun = createInput('e.g dog');
     noun.position(width/2, 20);
