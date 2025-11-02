@@ -63,7 +63,8 @@ function setup(){
 }
 function draw(){
     fill(colorPicker)
-    textSize()
+    textSize(20);
+    
 }
 function updateText(){
     Text = this.value();
