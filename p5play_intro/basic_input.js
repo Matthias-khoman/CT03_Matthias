@@ -77,5 +77,5 @@ let submitButton;
 let outputArea;
 
 function setup(){
-    create
+    createCanvas()
 }
