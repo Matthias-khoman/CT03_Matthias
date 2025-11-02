@@ -55,12 +55,12 @@ function setup(){
     createCanvas(200, 200)
 
     inputText = createInput();
-    inputText.position(200, 10)
-    inputText.input(updateText)
+    inputText.position(200, 10);
+    inputText.input(updateText);
 }
 function draw(){
 
 }
 function updateText(){
-    Text = this.value()
+    Text = this.value();
 }
